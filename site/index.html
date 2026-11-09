@@ -3,117 +3,508 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>F1uway Studio — استودیوی چهارنمایی مستطیل‌های چت، رادار ابزار، هستی‌شناسی و گراف تسلط</title>
+  <title>استودیوی F1uway — داشبورد چهارنمایی مستطیل‌های گفتگو، رادار ابزار، هستی‌شناسی و گراف تسلط</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Lalezar&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
+    @font-face {
+      font-family: 'Vazirmatn';
+      src: url('fonts/Vazirmatn-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Vazirmatn';
+      src: url('fonts/Vazirmatn-Medium.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Vazirmatn';
+      src: url('fonts/Vazirmatn-SemiBold.ttf') format('truetype');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Vazirmatn';
+      src: url('fonts/Vazirmatn-Bold.ttf') format('truetype');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Vazirmatn';
+      src: url('fonts/Vazirmatn-Black.ttf') format('truetype');
+      font-weight: 900;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Lalezar';
+      src: url('fonts/Lalezar-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
     :root {
       direction: rtl;
-      --font-fa: 'Vazirmatn', 'IBM Plex Sans Arabic', Tahoma, sans-serif;
-      --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+      --font-fa: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, sans-serif;
+      --font-display: 'Lalezar', 'Vazirmatn', sans-serif;
+      --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       --bg-void: #050508;
       --bg-card: #111118;
+      --bg-card-hover: #171724;
       --border: #262636;
+      --border-light: #36364c;
       --text: #e4e4ed;
-      --muted: #8b8b9e;
+      --text-muted: #9595a8;
       --accent: #6366f1;
+      --accent-glow: rgba(99, 102, 241, 0.3);
       --green: #22c55e;
+      --green-glow: rgba(34, 197, 94, 0.16);
       --amber: #f59e0b;
+      --amber-glow: rgba(245, 158, 11, 0.16);
+      --blue: #38bdf8;
     }
-    * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg-void); color: var(--text); font-family: var(--font-fa); line-height: 1.75; }
-    header { display: flex; justify-content: space-between; align-items: center; padding: 14px 24px; border-bottom: 1px solid var(--border); background: #0a0a10; }
-    .tabs { display: flex; gap: 8px; }
-    .tab-btn { background: var(--bg-card); color: var(--text); border: 1px solid var(--border); padding: 8px 16px; border-radius: 999px; cursor: pointer; font-family: var(--font-fa); }
-    .tab-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
-    main { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
-    .view-panel { display: none; }
-    .view-panel.active { display: block; }
-    .thread-box { border: 1px solid var(--border); background: var(--bg-card); border-radius: 16px; padding: 16px; margin-bottom: 18px; }
-    .thread-box.branch { margin-right: 40px; border-right: 3px solid var(--green); }
-    .turn-card { border-top: 1px dashed var(--border); padding: 10px 0; }
-    .pill { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 12px; background: #1e1e2e; margin-left: 6px; }
-    .zero-token { background: rgba(34, 197, 94, 0.18); color: var(--green); border: 1px solid var(--green); }
-    code, .ltr { direction: ltr !important; unicode-bidi: isolate !important; font-family: var(--font-mono); background: #1b1b26; padding: 2px 6px; border-radius: 4px; }
-    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
-    th, td { border: 1px solid var(--border); padding: 10px 12px; text-align: right; }
-    th { background: #161622; }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg-void);
+      color: var(--text);
+      font-family: var(--font-fa);
+      font-size: 16px;
+      line-height: 1.8;
+      letter-spacing: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 28px;
+      border-bottom: 1px solid var(--border);
+      background: #090910;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .brand-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-title .logo-accent {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      color: #a5b4fc;
+      letter-spacing: 0;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      background: var(--bg-card);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 8px 18px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-family: var(--font-fa);
+      font-size: 0.92rem;
+      font-weight: 500;
+      letter-spacing: 0;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--border-light);
+    }
+
+    .tab-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #ffffff;
+      box-shadow: 0 0 16px var(--accent-glow);
+    }
+
+    main {
+      max-width: 1240px;
+      margin: 28px auto;
+      padding: 0 24px;
+    }
+
+    .view-panel {
+      display: none;
+    }
+
+    .view-panel.active {
+      display: block;
+      animation: fadeIn 0.22s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(4px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h1, h2, h3 {
+      line-height: 1.5;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin: 0 0 18px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .thread-box {
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      border-radius: 16px;
+      padding: 20px 22px;
+      margin-bottom: 20px;
+      transition: border-color 0.2s;
+    }
+
+    .thread-box:hover {
+      border-color: var(--border-light);
+    }
+
+    .thread-box.branch {
+      margin-inline-start: 40px;
+      border-inline-start: 3px solid var(--green);
+      background: #0d1217;
+    }
+
+    .turn-card {
+      border-top: 1px dashed var(--border);
+      padding: 14px 0 6px 0;
+      margin-top: 12px;
+    }
+
+    .turn-card p {
+      margin: 8px 0 0 0;
+      color: #d1d1e0;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 11px;
+      border-radius: 999px;
+      font-size: 12.5px;
+      font-weight: 500;
+      background: #1b1b28;
+      margin-inline-end: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      letter-spacing: 0;
+    }
+
+    .zero-token {
+      background: var(--green-glow);
+      color: var(--green);
+      border: 1px solid rgba(34, 197, 94, 0.35);
+    }
+
+    .delta-mode {
+      background: var(--amber-glow);
+      color: var(--amber);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+    }
+
+    code, .ltr {
+      direction: ltr !important;
+      unicode-bidi: isolate !important;
+      font-family: var(--font-mono);
+      background: #191924;
+      padding: 2px 7px;
+      border-radius: 5px;
+      font-size: 0.88em;
+      border: 1px solid rgba(255, 255, 255, 0.07);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin-top: 16px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border-bottom: 1px solid var(--border);
+      border-inline-end: 1px solid var(--border);
+      padding: 12px 16px;
+      text-align: start;
+    }
+
+    th:last-child, td:last-child {
+      border-inline-end: none;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    th {
+      background: #141420;
+      font-weight: 600;
+      color: #cfcfe2;
+      font-size: 0.94rem;
+    }
+
+    td {
+      background: var(--bg-card);
+      font-size: 0.93rem;
+    }
+
+    tr:hover td {
+      background: var(--bg-card-hover);
+    }
+
+    .status-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .badge-adopt {
+      background: rgba(34, 197, 94, 0.18);
+      color: var(--green);
+      border: 1px solid var(--green);
+    }
+
+    .badge-mit {
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--blue);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+    }
+
+    footer {
+      max-width: 1240px;
+      margin: 40px auto 24px auto;
+      padding: 16px 24px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
   </style>
 </head>
 <body>
   <header>
-    <div><strong>F1uway Studio</strong> — چهارچوب هم‌تکاملی <span class="ltr">Build-to-Learn ⇄ Learn-to-Build</span></div>
-    <div class="tabs">
-      <button class="tab-btn active" onclick="showTab('threads', this)">۱. مستطیل‌های چت (ThreadBox DAG)</button>
+    <div class="brand-title">
+      <span class="logo-accent">F1uway Studio</span>
+      <span>— چهارچوب هم‌تکاملی <bdi class="ltr">Build-to-Learn ⇄ Learn-to-Build</bdi></span>
+    </div>
+    <nav class="tabs" aria-label="بخش‌های داشبورد">
+      <button class="tab-btn active" onclick="showTab('threads', this)">۱. مستطیل‌های گفتگو (ThreadBox DAG)</button>
       <button class="tab-btn" onclick="showTab('ontology', this)">۲. هستی‌شناسی ضدتکرار (Ontology)</button>
       <button class="tab-btn" onclick="showTab('radar', this)">۳. رادار ابزار (Tool Radar)</button>
-      <button class="tab-btn" onclick="showTab('mastery', this)">۴. نقشه تسلط (BKT + FSRS-6)</button>
-    </div>
+      <button class="tab-btn" onclick="showTab('mastery', this)">۴. نقشهٔ تسلط (BKT + FSRS-6)</button>
+    </nav>
   </header>
+
   <main>
-    <section id="threads" class="view-panel active">
-      <h2>🌿 نمای گراف مستطیل‌های چت منشعب‌شونده (<span class="ltr">ThreadBox DAG</span>)</h2>
+    <!-- View 1: ThreadBox DAG -->
+    <section id="threads" class="view-panel active" aria-labelledby="heading-threads">
+      <h2 id="heading-threads">🌿 نمای گراف مستطیل‌های گفتگوی منشعب‌شونده (<bdi class="ltr">ThreadBox DAG</bdi>)</h2>
+
       <div class="thread-box">
-        <strong>🟦 [thr_T1.1_main] معماری قراردادهای داده و مستطیل‌های چت در تسک T1.1</strong>
+        <strong>🟦 <code dir="ltr">[thr_T1.1_main]</code> معماری قراردادهای داده و مستطیل‌های گفتگو در تسک <bdi class="ltr">T1.1</bdi></strong>
+
         <div class="turn-card">
-          <span class="pill">👤 human: MOSiHiHi</span> <span class="pill">❓ پرسش</span> <strong>ساختار پایه TurnNode و اسکیمای LLM</strong>
-          <p>چطور مدل <code>TurnNode</code> و <code>ConstrainedLLMResponse</code> را طراحی کنیم که هم انشعاب‌پذیر باشد و هم جلوی توهم و چاپلوسی مدل را بگیرد؟</p>
+          <span class="pill">👤 کاربر: MOSiHiHi</span>
+          <span class="pill">❓ پرسش</span>
+          <strong>ساختار پایهٔ <bdi class="ltr">TurnNode</bdi> و طرح‌وارهٔ <bdi class="ltr">LLM</bdi></strong>
+          <p>چگونه مدل‌های <code>TurnNode</code> و <code>ConstrainedLLMResponse</code> را طراحی کنیم که هم انشعاب‌پذیر باشند و هم از توهم و تملق مدل پیشگیری کنند؟</p>
         </div>
+
         <div class="turn-card">
-          <span class="pill">🏗️ ai_architect</span> <span class="pill">🛠️ پیشنهاد کد</span> <strong>تقدم استدلال و قفل extra='forbid'</strong>
-          <p>در کلاس <code>ConstrainedLLMResponse</code> ابتدا دو فیلد <code>reasoning_chain</code> و <code>evidence_quote</code> را قرار می‌دهیم تا در رمزگشایی مقید به <code>PDA</code> زنجیره استدلال قبل از حکم نهایی تولید شود؛ همچنین با <code>extra='forbid'</code> مدل را قفل می‌کنیم.</p>
+          <span class="pill">🏗️ معمار سامانه: ai_architect</span>
+          <span class="pill">🛠️ پیشنهاد کد</span>
+          <strong>تقدم استدلال و قفل <code dir="ltr">extra='forbid'</code></strong>
+          <p>در کلاس <code>ConstrainedLLMResponse</code> ابتدا دو فیلد <code>reasoning_chain</code> و <code>evidence_quote</code> را قرار می‌دهیم تا در رمزگشایی مقید به <bdi class="ltr">PDA</bdi>، زنجیرهٔ استدلال پیش از حکم نهایی تولید شود؛ همچنین با <code dir="ltr">extra='forbid'</code> و <code dir="ltr">frozen=True</code> مدل را قفل می‌کنیم.</p>
         </div>
       </div>
+
       <div class="thread-box branch">
-        <strong>🟩 [thr_T1.1_sub_forbid] انشعاب از <code>turn_002</code> روی عبارت <code>extra='forbid'</code></strong>
-        <span class="pill zero-token">⚡ 0-Token Ontology Hit (صرفه‌جویی: ۴۵۰ توکن)</span>
-        <p><strong>پاسخ فوری از گره هستی‌شناسی <code>ONT_PYDANTIC_EXTRA_FORBID</code>:</strong> منع ورود فیلدهای تعریف‌نشده و تغییرناپذیری شیء در Pydantic v2 با سربار زمانی نزدیک به صفر در هسته Rust.</p>
+        <strong>🟩 <code dir="ltr">[thr_T1.1_sub_forbid]</code> انشعاب از <code dir="ltr">turn_002</code> روی عبارت <code dir="ltr">extra='forbid'</code></strong>
+        <span class="pill zero-token">⚡ رویداد بدون توکن هستی‌شناسی (صرفه‌جویی: ۴۵۰ توکن)</span>
+        <p><strong>پاسخ فوری از گره هستی‌شناسی <code dir="ltr">ONT_PYDANTIC_EXTRA_FORBID</code>:</strong> منع ورود فیلدهای تعریف‌نشده و تغییرناپذیری شیء در <bdi class="ltr">Pydantic v2</bdi> با سربار زمانی نزدیک به صفر در هستهٔ <bdi class="ltr">Rust</bdi>.</p>
       </div>
+
       <div class="thread-box branch">
-        <strong>🟨 [thr_T1.1_sub_pda] انشعاب از <code>turn_002</code> روی عبارت <code>PDA</code> (حالت تفاضلی Delta Mode — ۶۵ توکن)</strong>
-        <p><strong>نتیجه تقطیرشده:</strong> برای ساختارهای بازگشتی تودرتو (مثل درخت ThreadBox)، ماشین حالت متناهی (FSM) کافی نیست و پشته PDA الزامی است.</p>
+        <strong>🟨 <code dir="ltr">[thr_T1.1_sub_pda]</code> انشعاب از <code dir="ltr">turn_002</code> روی عبارت <code dir="ltr">PDA</code></strong>
+        <span class="pill delta-mode">حالت تفاضلی (Delta Mode) — ۶۵ توکن</span>
+        <p><strong>نتیجهٔ تقطیرشده:</strong> برای ساختارهای بازگشتی تودرتو (مانند درخت <bdi class="ltr">ThreadBox</bdi>)، ماشین حالت متناهی (<bdi class="ltr">FSM</bdi>) پاسخگو نبوده و بهره‌گیری از پشتهٔ <bdi class="ltr">PDA</bdi> الزامی است.</p>
       </div>
     </section>
 
-    <section id="ontology" class="view-panel">
-      <h2>🧠 رجیستری هستی‌شناسی ضدتکرار توکن (<span class="ltr">Zero-Token Ontology Registry</span>)</h2>
+    <!-- View 2: Ontology Registry -->
+    <section id="ontology" class="view-panel" aria-labelledby="heading-ontology">
+      <h2 id="heading-ontology">🧠 پایگاه ثبت هستی‌شناسی ضدتکرار توکن (<bdi class="ltr">Zero-Token Ontology Registry</bdi>)</h2>
       <table>
-        <thead><tr><th>شناسه کانونیکال</th><th>عنوان فارسی / انگلیسی</th><th>نوع</th><th>تعداد ارجاعات</th><th>توکن ذخیره‌شده</th></tr></thead>
+        <thead>
+          <tr>
+            <th>شناسهٔ کانونیکال</th>
+            <th>عنوان فارسی / انگلیسی</th>
+            <th>نوع گره</th>
+            <th>تعداد ارجاعات</th>
+            <th>توکن ذخیره‌شده</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr><td><code>ONT_PYDANTIC_EXTRA_FORBID</code></td><td>قفل اسکیمای Pydantic (<span class="ltr">Pydantic Extra Forbid</span>)</td><td><code>CODE_SYMBOL</code></td><td>۲</td><td>۴۵۰ توکن</td></tr>
-          <tr><td><code>ONT_PUSHDOWN_AUTOMATON_CONSTRAINED_DECODING</code></td><td>رمزگشایی مقید به اتوماتای پشته‌ای (<span class="ltr">PDA</span>)</td><td><code>CONCEPT</code></td><td>۲</td><td>۳۵۰ توکن</td></tr>
+          <tr>
+            <td><code>ONT_PYDANTIC_EXTRA_FORBID</code></td>
+            <td>قفل طرح‌وارهٔ Pydantic (<bdi class="ltr">Pydantic Extra Forbid</bdi>)</td>
+            <td><code>CODE_SYMBOL</code></td>
+            <td>۲ بار</td>
+            <td>۴۵۰ توکن</td>
+          </tr>
+          <tr>
+            <td><code>ONT_PUSHDOWN_AUTOMATON_CONSTRAINED_DECODING</code></td>
+            <td>رمزگشایی مقید به اتوماتای پشته‌ای (<bdi class="ltr">PDA Constrained Decoding</bdi>)</td>
+            <td><code>CONCEPT</code></td>
+            <td>۲ بار</td>
+            <td>۳۵۰ توکن</td>
+          </tr>
         </tbody>
       </table>
     </section>
 
-    <section id="radar" class="view-panel">
-      <h2>📡 رادار ابزارهای یکپارچه (<span class="ltr">MJNexus + F1uway Tool Radar</span>)</h2>
+    <!-- View 3: Tool Radar -->
+    <section id="radar" class="view-panel" aria-labelledby="heading-radar">
+      <h2 id="heading-radar">📡 رادار ابزارهای یکپارچه (<bdi class="ltr">MJNexus + F1uway Tool Radar</bdi>)</h2>
       <table>
-        <thead><tr><th>نام ابزار / مخزن</th><th>دسته رادار</th><th>حلقه مالک (owner_only)</th><th>لایسنس</th><th>نقش در اکوسیستم</th></tr></thead>
+        <thead>
+          <tr>
+            <th>نام ابزار / مخزن</th>
+            <th>دستهٔ رادار</th>
+            <th>حلقهٔ مالکیت</th>
+            <th>مجوز (License)</th>
+            <th>نقش در زیست‌بوم</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr><td><code>Archify v3.2</code></td><td><code>coding-agents</code></td><td><strong>ADOPT</strong></td><td><code>MIT</code></td><td>تولید ۱۰ نوع دیاگرام و صفحات Explainer با اعتبارسنجی اتمیک</td></tr>
-          <tr><td><code>codebase-memory-mcp (CBM)</code></td><td><code>coding-agents</code></td><td><strong>ADOPT</strong></td><td><code>MIT</code></td><td>ایندکس ۱۶۲ زبان با Tree-sitter و نمای کهکشانی CBM Lens 3D</td></tr>
-          <tr><td><code>IBM Docling v2.140</code></td><td><code>rag-knowledge</code></td><td><strong>ADOPT</strong></td><td><code>MIT</code></td><td>کالبدشکافی صفحات PDF و جداول با حفظ مختصات <code>bbox</code></td></tr>
-          <tr><td><code>BAAI/bge-m3</code></td><td><code>models-inference</code></td><td><strong>ADOPT</strong></td><td><code>MIT</code></td><td>امبدینگ سه‌گانه (متراکم، پراکنده، ColBERT) در ۱۰۰+ زبان</td></tr>
+          <tr>
+            <td><code>Archify v3.2</code></td>
+            <td><code>coding-agents</code></td>
+            <td><span class="status-badge badge-adopt">ADOPT</span></td>
+            <td><span class="status-badge badge-mit">MIT</span></td>
+            <td>تولید ۱۰ نوع نمودار و صفحات تبیینی با اعتبارسنجی اتمیک</td>
+          </tr>
+          <tr>
+            <td><code>codebase-memory-mcp (CBM)</code></td>
+            <td><code>coding-agents</code></td>
+            <td><span class="status-badge badge-adopt">ADOPT</span></td>
+            <td><span class="status-badge badge-mit">MIT</span></td>
+            <td>نمایه‌سازی ۱۶۲ زبان با <bdi class="ltr">Tree-sitter</bdi> و نمای کیهانی <bdi class="ltr">CBM Lens 3D</bdi></td>
+          </tr>
+          <tr>
+            <td><code>IBM Docling v2.140</code></td>
+            <td><code>rag-knowledge</code></td>
+            <td><span class="status-badge badge-adopt">ADOPT</span></td>
+            <td><span class="status-badge badge-mit">MIT</span></td>
+            <td>کالبدشکافی ساختار صفحات <bdi class="ltr">PDF</bdi> و جدول‌ها با حفظ مختصات <code dir="ltr">bbox</code></td>
+          </tr>
+          <tr>
+            <td><code>BAAI/bge-m3</code></td>
+            <td><code>models-inference</code></td>
+            <td><span class="status-badge badge-adopt">ADOPT</span></td>
+            <td><span class="status-badge badge-mit">MIT</span></td>
+            <td>بازتولید تعبیهٔ سه‌گانه (متراکم، پراکنده، <bdi class="ltr">ColBERT</bdi>) در بیش از ۱۰۰ زبان</td>
+          </tr>
         </tbody>
       </table>
     </section>
 
-    <section id="mastery" class="view-panel">
-      <h2>📈 نقشه تسلط یادگیرنده متصل به نمادهای کد (<span class="ltr">BKT + FSRS-6 Competence Graph</span>)</h2>
+    <!-- View 4: Mastery Graph -->
+    <section id="mastery" class="view-panel" aria-labelledby="heading-mastery">
+      <h2 id="heading-mastery">📈 نقشهٔ تسلط یادگیرنده متصل به نمادهای کد (<bdi class="ltr">BKT + FSRS-6 Competence Graph</bdi>)</h2>
       <table>
-        <thead><tr><th>نماد کد / مفهوم هستی‌شناسی</th><th>احتمال تسلط BKT</th><th>پایداری حافظه FSRS-6 (S)</th><th>دشواری (D)</th><th>مرور بعدی</th></tr></thead>
+        <thead>
+          <tr>
+            <th>نماد کد / مفهوم هستی‌شناسی</th>
+            <th>احتمال تسلط BKT</th>
+            <th>پایداری حافظه (Stability)</th>
+            <th>دشواری (Difficulty)</th>
+            <th>موعد مرور بعدی</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr><td><code>src/f1uway/contracts.py::ConstrainedLLMResponse</code></td><td><code>0.7875</code></td><td><code>4.12 days</code></td><td><code>4.64</code></td><td><code>4 روز دیگر</code></td></tr>
-          <tr><td><code>ONT_PYDANTIC_EXTRA_FORBID</code></td><td><code>0.8512</code></td><td><code>6.50 days</code></td><td><code>4.20</code></td><td><code>6 روز دیگر</code></td></tr>
+          <tr>
+            <td><code>src/f1uway/contracts.py::ConstrainedLLMResponse</code></td>
+            <td><code>0.7875</code></td>
+            <td>۴٫۱۲ روز (<bdi class="ltr">4.12 days</bdi>)</td>
+            <td>۴٫۶۴</td>
+            <td>۴ روز دیگر</td>
+          </tr>
+          <tr>
+            <td><code>ONT_PYDANTIC_EXTRA_FORBID</code></td>
+            <td><code>0.8512</code></td>
+            <td>۶٫۵۰ روز (<bdi class="ltr">6.50 days</bdi>)</td>
+            <td>۴٫۲۰</td>
+            <td>۶ روز دیگر</td>
+          </tr>
         </tbody>
       </table>
     </section>
   </main>
+
+  <footer>
+    طراحی‌شده بر پایهٔ استاندارد خط و زبان فارسی و اصول چیدمان راست‌به‌چپ (<bdi class="ltr">RTL</bdi>) — قلم وزیرمتن و لاله‌زار
+  </footer>
+
   <script>
     function showTab(id, btn) {
-      document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
-      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-      document.getElementById(id).classList.add('active');
-      btn.classList.add('active');
+      document.querySelectorAll('.view-panel').forEach(function(p) {
+        p.classList.remove('active');
+      });
+      document.querySelectorAll('.tab-btn').forEach(function(b) {
+        b.classList.remove('active');
+      });
+      const activePanel = document.getElementById(id);
+      if (activePanel) {
+        activePanel.classList.add('active');
+      }
+      if (btn) {
+        btn.classList.add('active');
+      }
     }
   </script>
 </body>
