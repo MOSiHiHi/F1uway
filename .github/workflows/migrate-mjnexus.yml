@@ -1,0 +1,29 @@
+name: Migrate MJNexus to F1uway
+
+on:
+  push:
+    branches: [ "Hyp", "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Clone MJNexus and Run Migration
+        env:
+          GH_TOKEN: ${{ github.token }}
+          B64: "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"
+        run: |
+          gh repo clone MOSiHiHi/MJNexus /tmp/MJNexus -- --depth 1 -b Hyp || gh repo clone MOSiHiHi/MJNexus /tmp/MJNexus -- --depth 1
+          mkdir -p scripts
+          python3 -c 'import os,zlib,base64; open("scripts/migrate_mjnexus_to_f1uway.py","wb").write(zlib.decompress(base64.b64decode(os.environ["B64"])))'
+          python3 scripts/migrate_mjnexus_to_f1uway.py
+          git config user.name "F1uway Bot"
+          git config user.email "MOSiHiHi@users.noreply.github.com"
+          git add scripts/migrate_mjnexus_to_f1uway.py notebook/ learning/ MIGRATION_REPORT.md
+          git commit -m "feat(migration): migrate MJNexus kg.sqlite & 17 learning domains to F1uway" || true
+          git push
