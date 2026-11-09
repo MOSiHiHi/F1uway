@@ -1,0 +1,23 @@
+# قوانین قفل مکانیکی مرز لایه‌های معماری (Sinks, Not Pipes)
+exact = true
+strict = true
+
+[[modules]]
+path = "f1uway.core"
+depends_on = []
+
+[[modules]]
+path = "f1uway.contracts"
+depends_on = []
+
+[[modules]]
+path = "f1uway.text_bidi"
+depends_on = []
+
+[[modules]]
+path = "f1uway.ontology_interner"
+depends_on = ["f1uway.contracts", "f1uway.text_bidi"]
+
+[[modules]]
+path = "f1uway.thread_dag"
+depends_on = ["f1uway.contracts", "f1uway.ontology_interner"]

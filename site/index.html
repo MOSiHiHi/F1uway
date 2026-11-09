@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F1uway Studio — استودیوی چهارنمایی مستطیل‌های چت، رادار ابزار، هستی‌شناسی و گراف تسلط</title>
+  <style>
+    :root {
+      direction: rtl;
+      --font-fa: 'Vazirmatn', 'IBM Plex Sans Arabic', Tahoma, sans-serif;
+      --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+      --bg-void: #050508;
+      --bg-card: #111118;
+      --border: #262636;
+      --text: #e4e4ed;
+      --muted: #8b8b9e;
+      --accent: #6366f1;
+      --green: #22c55e;
+      --amber: #f59e0b;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg-void); color: var(--text); font-family: var(--font-fa); line-height: 1.75; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 14px 24px; border-bottom: 1px solid var(--border); background: #0a0a10; }
+    .tabs { display: flex; gap: 8px; }
+    .tab-btn { background: var(--bg-card); color: var(--text); border: 1px solid var(--border); padding: 8px 16px; border-radius: 999px; cursor: pointer; font-family: var(--font-fa); }
+    .tab-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    main { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
+    .view-panel { display: none; }
+    .view-panel.active { display: block; }
+    .thread-box { border: 1px solid var(--border); background: var(--bg-card); border-radius: 16px; padding: 16px; margin-bottom: 18px; }
+    .thread-box.branch { margin-right: 40px; border-right: 3px solid var(--green); }
+    .turn-card { border-top: 1px dashed var(--border); padding: 10px 0; }
+    .pill { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 12px; background: #1e1e2e; margin-left: 6px; }
+    .zero-token { background: rgba(34, 197, 94, 0.18); color: var(--green); border: 1px solid var(--green); }
+    code, .ltr { direction: ltr !important; unicode-bidi: isolate !important; font-family: var(--font-mono); background: #1b1b26; padding: 2px 6px; border-radius: 4px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { border: 1px solid var(--border); padding: 10px 12px; text-align: right; }
+    th { background: #161622; }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>F1uway Studio</strong> — چهارچوب هم‌تکاملی <span class="ltr">Build-to-Learn ⇄ Learn-to-Build</span></div>
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showTab('threads', this)">۱. مستطیل‌های چت (ThreadBox DAG)</button>
+      <button class="tab-btn" onclick="showTab('ontology', this)">۲. هستی‌شناسی ضدتکرار (Ontology)</button>
+      <button class="tab-btn" onclick="showTab('radar', this)">۳. رادار ابزار (Tool Radar)</button>
+      <button class="tab-btn" onclick="showTab('mastery', this)">۴. نقشه تسلط (BKT + FSRS-6)</button>
+    </div>
+  </header>
+  <main>
+    <section id="threads" class="view-panel active">
+      <h2>🌿 نمای گراف مستطیل‌های چت منشعب‌شونده (<span class="ltr">ThreadBox DAG</span>)</h2>
+      <div class="thread-box">
+        <strong>🟦 [thr_T1.1_main] معماری قراردادهای داده و مستطیل‌های چت در تسک T1.1</strong>
+        <div class="turn-card">
+          <span class="pill">👤 human: MOSiHiHi</span> <span class="pill">❓ پرسش</span> <strong>ساختار پایه TurnNode و اسکیمای LLM</strong>
+          <p>چطور مدل <code>TurnNode</code> و <code>ConstrainedLLMResponse</code> را طراحی کنیم که هم انشعاب‌پذیر باشد و هم جلوی توهم و چاپلوسی مدل را بگیرد؟</p>
+        </div>
+        <div class="turn-card">
+          <span class="pill">🏗️ ai_architect</span> <span class="pill">🛠️ پیشنهاد کد</span> <strong>تقدم استدلال و قفل extra='forbid'</strong>
+          <p>در کلاس <code>ConstrainedLLMResponse</code> ابتدا دو فیلد <code>reasoning_chain</code> و <code>evidence_quote</code> را قرار می‌دهیم تا در رمزگشایی مقید به <code>PDA</code> زنجیره استدلال قبل از حکم نهایی تولید شود؛ همچنین با <code>extra='forbid'</code> مدل را قفل می‌کنیم.</p>
+        </div>
+      </div>
+      <div class="thread-box branch">
+        <strong>🟩 [thr_T1.1_sub_forbid] انشعاب از <code>turn_002</code> روی عبارت <code>extra='forbid'</code></strong>
+        <span class="pill zero-token">⚡ 0-Token Ontology Hit (صرفه‌جویی: ۴۵۰ توکن)</span>
+        <p><strong>پاسخ فوری از گره هستی‌شناسی <code>ONT_PYDANTIC_EXTRA_FORBID</code>:</strong> منع ورود فیلدهای تعریف‌نشده و تغییرناپذیری شیء در Pydantic v2 با سربار زمانی نزدیک به صفر در هسته Rust.</p>
+      </div>
+      <div class="thread-box branch">
+        <strong>🟨 [thr_T1.1_sub_pda] انشعاب از <code>turn_002</code> روی عبارت <code>PDA</code> (حالت تفاضلی Delta Mode — ۶۵ توکن)</strong>
+        <p><strong>نتیجه تقطیرشده:</strong> برای ساختارهای بازگشتی تودرتو (مثل درخت ThreadBox)، ماشین حالت متناهی (FSM) کافی نیست و پشته PDA الزامی است.</p>
+      </div>
+    </section>
+
+    <section id="ontology" class="view-panel">
+      <h2>🧠 رجیستری هستی‌شناسی ضدتکرار توکن (<span class="ltr">Zero-Token Ontology Registry</span>)</h2>
+      <table>
+        <thead><tr><th>شناسه کانونیکال</th><th>عنوان فارسی / انگلیسی</th><th>نوع</th><th>تعداد ارجاعات</th><th>توکن ذخیره‌شده</th></tr></thead>
+        <tbody>
+          <tr><td><code>ONT_PYDANTIC_EXTRA_FORBID</code></td><td>قفل اسکیمای Pydantic (<span class="ltr">Pydantic Extra Forbid</span>)</td><td><code>CODE_SYMBOL</code></td><td>۲</td><td>۴۵۰ توکن</td></tr>
+          <tr><td><code>ONT_PUSHDOWN_AUTOMATON_CONSTRAINED_DECODING</code></td><td>رمزگشایی مقید به اتوماتای پشته‌ای (<span class="ltr">PDA</span>)</td><td><code>CONCEPT</code></td><td>۲</td><td>۳۵۰ توکن</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="radar" class="view-panel">
+      <h2>📡 رادار ابزارهای یکپارچه (<span class="ltr">MJNexus + F1uway Tool Radar</span>)</h2>
+      <table>
+        <thead><tr><th>نام ابزار / مخزن</th><th>دسته رادار</th><th>حلقه مالک (owner_only)</th><th>لایسنس</th><th>نقش در اکوسیستم</th></tr></thead>
+        <tbody>
+          <tr><td><code>Archify v3.2</code></td><td><code>coding-agents</code></td><td><strong>ADOPT</strong></td><td><code>MIT</code></td><td>تولید ۱۰ نوع دیاگرام و صفحات Explainer با اعتبارسنجی اتمیک</td></tr>
+          <tr><td><code>codebase-memory-mcp (CBM)</code></td><td><code>coding-agents</code></td><td><strong>ADOPT</strong></td><td><code>MIT</code></td><td>ایندکس ۱۶۲ زبان با Tree-sitter و نمای کهکشانی CBM Lens 3D</td></tr>
+          <tr><td><code>IBM Docling v2.140</code></td><td><code>rag-knowledge</code></td><td><strong>ADOPT</strong></td><td><code>MIT</code></td><td>کالبدشکافی صفحات PDF و جداول با حفظ مختصات <code>bbox</code></td></tr>
+          <tr><td><code>BAAI/bge-m3</code></td><td><code>models-inference</code></td><td><strong>ADOPT</strong></td><td><code>MIT</code></td><td>امبدینگ سه‌گانه (متراکم، پراکنده، ColBERT) در ۱۰۰+ زبان</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="mastery" class="view-panel">
+      <h2>📈 نقشه تسلط یادگیرنده متصل به نمادهای کد (<span class="ltr">BKT + FSRS-6 Competence Graph</span>)</h2>
+      <table>
+        <thead><tr><th>نماد کد / مفهوم هستی‌شناسی</th><th>احتمال تسلط BKT</th><th>پایداری حافظه FSRS-6 (S)</th><th>دشواری (D)</th><th>مرور بعدی</th></tr></thead>
+        <tbody>
+          <tr><td><code>src/f1uway/contracts.py::ConstrainedLLMResponse</code></td><td><code>0.7875</code></td><td><code>4.12 days</code></td><td><code>4.64</code></td><td><code>4 روز دیگر</code></td></tr>
+          <tr><td><code>ONT_PYDANTIC_EXTRA_FORBID</code></td><td><code>0.8512</code></td><td><code>6.50 days</code></td><td><code>4.20</code></td><td><code>6 روز دیگر</code></td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script>
+    function showTab(id, btn) {
+      document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      btn.classList.add('active');
+    }
+  </script>
+</body>
+</html>

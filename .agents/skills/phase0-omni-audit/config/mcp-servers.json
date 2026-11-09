@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "codebase-memory-mcp": {
+      "command": "codebase-memory-mcp",
+      "args": [
+        "daemon"
+      ]
+    },
+    "codegraph": {
+      "command": "codegraph",
+      "args": [
+        "mcp"
+      ]
+    },
+    "rgctl": {
+      "command": "rgctl",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}

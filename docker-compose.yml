@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: f1uway_pg
+    environment:
+      POSTGRES_DB: f1uway
+      POSTGRES_USER: architect
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-f1uway_local}
+    ports:
+      - "5440:5432"
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d:ro
+  searxng:
+    image: searxng/searxng:latest
+    container_name: f1uway_searxng
+    ports:
+      - "8888:8080"
+    volumes:
+      - ./searxng/settings.yml:/etc/searxng/settings.yml:ro
