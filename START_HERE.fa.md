@@ -1,21 +1,11 @@
-# 🧭 از اینجا شروع کنید (`START_HERE.fa.md`) — قطب‌نمای ۳ دقیقه‌ای انسان
+# 🧭 اتاق فرمان مستندات F1uway (پیشبرد تمام پروژه‌ها از روی Markdown)
 
-> **اصلاً نیازی نیست قوانین این فریم‌ورک را از قبل بلد باشید!**  
-> این مخزن طوری طراحی شده که در هر فایل، یک باکس راهنما بالای صفحه دست شما را بگیرد و قدم بعدی را نشان دهد.
-
-## ۱. شما الان با چه هدفی وارد این مخزن شده‌اید؟ (یکی را انتخاب کنید)
-
-### مسیر الف: می‌خواهم یک نرم‌افزار یا ابزار بسازم و حین ساختن، علم آن را عمیق یاد بگیرم (`Build-to-Learn`)
-1. فایل [`ROADMAP_AND_TASKS.md`](ROADMAP_AND_TASKS.md) را باز کنید تا فهرست تسک‌های فازبندی‌شده (`T1.1` تا `T6.x`) را ببینید.
-2. وارد پوشه [`docs/human/playbooks/`](docs/human/playbooks/) شوید و پلی‌بوک فاز اول ([`T1.1.fa.md`](docs/human/playbooks/T1.1.fa.md) یا [`phase-1.fa.md`](docs/human/playbooks/phase-1.fa.md)) را باز کنید.
-3. در ترمینال بزنید: `python3 scripts/devloop.py next` تا خود سیستم شما را قدم‌به‌قدم هدایت کند.
-
-### مسیر ب: می‌خواهم یک موضوع علمی، ریاضی، مهندسی یا کتاب را یاد بگیرم و ابزارش را بسازم (`Learn-to-Build`)
-1. وارد پوشه [`learning/`](learning/README.md) و راهنمای چارچوب یادگیری ([`learning/framework/README.md`](learning/framework/README.md)) شوید.
-2. یکی از ۱۷ دامنه دانشی را انتخاب کنید یا سند/کتاب PDF خود را با خط لوله `F1uxus` وارد کنید.
-3. در انتهای هر درس، بخش **`## تمرین ۱۰ دقیقه‌ای (ساخت میکرو-ابزار)`** را انجام دهید تا آموخته‌تان به یک ابزار واقعی در کدبیس تبدیل شود.
-
-### مسیر ج: می‌خواهم کل معماری، پرسونای کاربر، ۱۲ تصمیم‌نامه (ADR) و ۱۰ پژوهش پایه را بخوانم
-1. سند مرجع کامل محصول: [`MASTER_PRODUCT_DESIGN.fa.md`](MASTER_PRODUCT_DESIGN.fa.md)
-2. تصمیم‌نامه‌های معماری و ماتریس گزینه‌ها: [`docs/adr/`](docs/adr/)
-3. دایرةالمعارف ۱۰ جلدی پژوهش‌های پایه: [`docs/research/`](docs/research/)
+- 📡 **[۱. مرکز فرماندهی MJNexus](./docs/projects/01-MJNexus-Command-Center.fa.md)** (۳۱۶ منبع رادار + ۸۰ درس‌نامه)
+- 🧠 **[۲. مرکز فرماندهی F1uent-Ecosystem](./docs/projects/02-F1uent-Command-Center.fa.md)** (طیف H0-A2 + پلی‌بوک‌ها + ۷ ماژول هسته)
+- 🏛️ **[۳. مرکز فرماندهی F1uxus](./docs/projects/03-F1uxus-Command-Center.fa.md)** (۱۰ ستون پژوهشی + ۱۲ ADR + اسکیمای دو-زمانی)
+- 🚀 **[۴. الگوی تعریف پروژه جدید](./docs/projects/04-New-Project-Template.fa.md)**
+- 📚 **[اطلس ۸۰ درس‌نامه یادگیری (`learning/INDEX.fa.md`)](./learning/INDEX.fa.md)**
+- 🗂️ **[اطلس 444 گره هستی‌شناسی (`notebook/INDEX.fa.md`)](./notebook/INDEX.fa.md)**
+- 🃏 **[فلش‌کارت‌های مرور فاصله‌دار FSRS-6 (`notebook/cards.tsv`)](./notebook/cards.tsv)**
+- 🛣️ **[تابلوی کانبان و نقشه راه (`ROADMAP_AND_TASKS.md`)](./ROADMAP_AND_TASKS.md)**
+- 📊 **[وضعیت لحظه‌ای (`STATE.md`)](./STATE.md)** | **[گزارش مهاجرت (`MIGRATION_REPORT.md`)](./MIGRATION_REPORT.md)**

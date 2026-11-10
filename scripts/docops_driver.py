@@ -1,0 +1,18 @@
+from pathlib import Path
+r = Path("."); od, pd = r / "notebook/ontology", r / "docs/projects"
+pd.mkdir(parents=True, exist_ok=True)
+onts = sorted(od.glob("ONT_*.md"))
+lr = sorted((r / "learning").glob("*/*/README.md"))
+pbs = sorted((r / "docs/human/playbooks").glob("*.md"))
+spcs = sorted((r / "specs").glob("*.md"))
+mods = sorted([p for p in (r / "src/f1_core").glob("*.py") if p.name != "__init__.py"])
+res_d = sorted((r / "docs/research").glob("*.md"))
+adrs = sorted((r / "docs/adr").glob("*.md"))
+wr = lambda p, ls: (r / p).write_text("\n".join(ls) + "\n", encoding="utf-8")
+wr("docs/projects/01-MJNexus-Command-Center.fa.md", ["# 📡 مرکز فرماندهی MJNexus (رادار و ۱۸ دامنه یادگیری)", ""] + [f"- [ ] [`{x.parent.parent.name}/{x.parent.name}`](../../learning/{x.parent.parent.name}/{x.parent.name}/README.md)" for x in lr])
+wr("docs/projects/02-F1uent-Command-Center.fa.md", ["# 🧠 مرکز فرماندهی F1uent-Ecosystem (طیف H0-A2 و هسته پایتون)", "", "- [`DEVELOPMENT_SPECTRUM.fa.md`](../DEVELOPMENT_SPECTRUM.fa.md)"] + [f"- [ ] [`{p.name}`](../human/playbooks/{p.name})" for p in pbs] + [f"- [ ] [`specs/{s.name}`](../../specs/{s.name})" for s in spcs] + [f"- [x] [`src/f1_core/{m.name}`](../../src/f1_core/{m.name})" for m in mods])
+wr("docs/projects/03-F1uxus-Command-Center.fa.md", ["# 🏛️ مرکز فرماندهی F1uxus (اسناد پژوهشی، ADR و زیرساخت)", ""] + [f"- [ ] [`docs/research/{x.name}`](../research/{x.name})" for x in res_d] + [f"- [x] [`docs/adr/{a.name}`](../adr/{a.name})" for a in adrs] + ["- [x] [`initdb/01_schema.sql`](../../initdb/01_schema.sql)", "- [x] [`searxng/settings.yml`](../../searxng/settings.yml)"])
+wr("docs/projects/04-New-Project-Template.fa.md", ["# 🚀 الگوی پروژه جدید روی F1uway", "- [ ] ۱. ثبت گره در `notebook/ontology/ONT_PROJ_<NAME>.md`", "- [ ] ۲. تعیین سطح طیف در [`DEVELOPMENT_SPECTRUM.fa.md`](../DEVELOPMENT_SPECTRUM.fa.md)", "- [ ] ۳. ساخت پلی‌بوک از [`task-worksheet.fa.md`](../human/templates/task-worksheet.fa.md)"])
+wr("learning/INDEX.fa.md", ["# 📚 اطلس ۱۸ دامنه و ۸۰ درس‌نامه یادگیری"] + [f"- [`{x.parent.parent.name}/{x.parent.name}`](./{x.parent.parent.name}/{x.parent.name}/README.md)" for x in lr])
+wr("notebook/INDEX.fa.md", [f"# 🗂️ اطلس هستی‌شناسی ({len(onts)} گره ONT_*)"] + [f"- [`{f.stem}`](./ontology/{f.name})" for f in onts])
+wr("START_HERE.fa.md", ["# 🧭 اتاق فرمان مستندات F1uway (پیشبرد تمام پروژه‌ها از روی Markdown)", "", "- 📡 **[۱. مرکز فرماندهی MJNexus](./docs/projects/01-MJNexus-Command-Center.fa.md)** (۳۱۶ منبع رادار + ۸۰ درس‌نامه)", "- 🧠 **[۲. مرکز فرماندهی F1uent-Ecosystem](./docs/projects/02-F1uent-Command-Center.fa.md)** (طیف H0-A2 + پلی‌بوک‌ها + ۷ ماژول هسته)", "- 🏛️ **[۳. مرکز فرماندهی F1uxus](./docs/projects/03-F1uxus-Command-Center.fa.md)** (۱۰ ستون پژوهشی + ۱۲ ADR + اسکیمای دو-زمانی)", "- 🚀 **[۴. الگوی تعریف پروژه جدید](./docs/projects/04-New-Project-Template.fa.md)**", "- 📚 **[اطلس ۸۰ درس‌نامه یادگیری (`learning/INDEX.fa.md`)](./learning/INDEX.fa.md)**", f"- 🗂️ **[اطلس {len(onts)} گره هستی‌شناسی (`notebook/INDEX.fa.md`)](./notebook/INDEX.fa.md)**", "- 🃏 **[فلش‌کارت‌های مرور فاصله‌دار FSRS-6 (`notebook/cards.tsv`)](./notebook/cards.tsv)**", "- 🛣️ **[تابلوی کانبان و نقشه راه (`ROADMAP_AND_TASKS.md`)](./ROADMAP_AND_TASKS.md)**", "- 📊 **[وضعیت لحظه‌ای (`STATE.md`)](./STATE.md)** | **[گزارش مهاجرت (`MIGRATION_REPORT.md`)](./MIGRATION_REPORT.md)**"])
