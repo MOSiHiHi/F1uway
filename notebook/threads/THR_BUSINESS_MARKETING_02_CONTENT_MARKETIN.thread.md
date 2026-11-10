@@ -1,0 +1,7 @@
+---
+thread_id: THR_BUSINESS_MARKETING_02_CONTENT_MARKETIN
+anchor_ont_id: ONT_CONCEPT_BUSINESS_MARKETING_02_CONTENT_MARKETING_AND_NEWSLETT
+status: RESOLVED
+---
+## تمرین ۱۰ دقیقه‌ای
+1. مفهوم کلیدی چیست؟

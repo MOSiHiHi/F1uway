@@ -1,0 +1,7 @@
+---
+thread_id: THR_BUSINESS_MARKETING_03_ENTREPRENEURSHIP
+anchor_ont_id: ONT_CONCEPT_BUSINESS_MARKETING_03_ENTREPRENEURSHIP_AND_PRODUCT_B
+status: RESOLVED
+---
+## تمرین ۱۰ دقیقه‌ای
+1. مفهوم کلیدی چیست؟

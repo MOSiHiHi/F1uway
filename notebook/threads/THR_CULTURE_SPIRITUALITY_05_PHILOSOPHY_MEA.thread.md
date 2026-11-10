@@ -1,0 +1,7 @@
+---
+thread_id: THR_CULTURE_SPIRITUALITY_05_PHILOSOPHY_MEA
+anchor_ont_id: ONT_CONCEPT_CULTURE_SPIRITUALITY_05_PHILOSOPHY_MEANING_ETHICS
+status: RESOLVED
+---
+## تمرین ۱۰ دقیقه‌ای
+1. مفهوم کلیدی چیست؟

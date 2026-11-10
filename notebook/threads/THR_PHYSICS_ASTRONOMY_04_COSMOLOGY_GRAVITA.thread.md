@@ -1,0 +1,7 @@
+---
+thread_id: THR_PHYSICS_ASTRONOMY_04_COSMOLOGY_GRAVITA
+anchor_ont_id: ONT_CONCEPT_PHYSICS_ASTRONOMY_04_COSMOLOGY_GRAVITATIONAL_WAVES
+status: RESOLVED
+---
+## تمرین ۱۰ دقیقه‌ای
+1. مفهوم کلیدی چیست؟

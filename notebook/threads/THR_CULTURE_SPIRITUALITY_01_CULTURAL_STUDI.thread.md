@@ -1,0 +1,7 @@
+---
+thread_id: THR_CULTURE_SPIRITUALITY_01_CULTURAL_STUDI
+anchor_ont_id: ONT_CONCEPT_CULTURE_SPIRITUALITY_01_CULTURAL_STUDIES_JOURNALS
+status: RESOLVED
+---
+## تمرین ۱۰ دقیقه‌ای
+1. مفهوم کلیدی چیست؟

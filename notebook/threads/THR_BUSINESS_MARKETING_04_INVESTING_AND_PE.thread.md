@@ -1,0 +1,7 @@
+---
+thread_id: THR_BUSINESS_MARKETING_04_INVESTING_AND_PE
+anchor_ont_id: ONT_CONCEPT_BUSINESS_MARKETING_04_INVESTING_AND_PERSONAL_FINANCE
+status: RESOLVED
+---
+## تمرین ۱۰ دقیقه‌ای
+1. مفهوم کلیدی چیست؟

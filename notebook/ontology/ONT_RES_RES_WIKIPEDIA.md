@@ -1,0 +1,13 @@
+---
+ont_id: ONT_RES_RES_WIKIPEDIA
+source_id: "res:wikipedia"
+category: other
+wikidata_qid: ""
+owner_only:
+  ring: assess
+  verification: unverified
+  notes_fa: ""
+---
+# `ONT_RES_RES_WIKIPEDIA` — Wikipedia
+
+
