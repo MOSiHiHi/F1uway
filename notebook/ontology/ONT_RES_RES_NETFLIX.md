@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_NETFLIX
+source_project: MJNexus
 source_id: "res:netflix"
 category: other
 wikidata_qid: ""

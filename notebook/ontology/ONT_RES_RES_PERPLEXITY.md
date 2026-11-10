@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_PERPLEXITY
+source_project: MJNexus
 source_id: "res:perplexity"
 category: other
 wikidata_qid: ""

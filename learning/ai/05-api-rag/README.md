@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_AI_05_API_RAG
+source_project: MJNexus
 domain: ai
 title_fa: "⭐ ۵. ساختن با API و RAG"
 content_is_data: true
@@ -70,15 +71,16 @@ print(msg.content[0].text, msg.usage)  # متن و شمار توکن‌ها
 - پاسخ باید نشان دهد که اندازهٔ تکه و معیار ارزیابی بر کیفیت بازیابی اثر می‌گذارد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_AI_05_API_RAG` | Thread: `THR_AI_05_API_RAG`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_AI_05_API_RAG` | Thread: `THR_CONCEPT_05_API_RAG`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_AI_05_API_RAG"
+SOURCE_REF = "learning/ai/05-api-rag/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_AI_05_API_RAG"><summary>ThreadBox THR_AI_05_API_RAG</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_AI_05_API_RAG` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_05_API_RAG"><summary>ThreadBox THR_CONCEPT_05_API_RAG</summary></details>
 <!-- ZONE:WORKSHEET_END -->

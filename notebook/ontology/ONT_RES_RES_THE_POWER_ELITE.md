@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_THE_POWER_ELITE
+source_project: MJNexus
 source_id: "res:the-power-elite"
 category: other
 wikidata_qid: ""

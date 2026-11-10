@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_MARIO_KART_WII
+source_project: MJNexus
 source_id: "res:mario-kart-wii"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_GH_COMFY_ORG_COMFYUI
+source_project: MJNexus
 source_id: "gh:comfy-org/comfyui"
 category: other
 wikidata_qid: ""

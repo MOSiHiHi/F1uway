@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_SOCIETY_RELIGION_03_SOCIAL_ACTIVISM_NONPROFITS
+source_project: MJNexus
 domain: society-religion
 title_fa: "03. فعالیت اجتماعی و سازمان‌های غیرانتفاعی"
 content_is_data: true
@@ -65,15 +66,16 @@ content_is_data: true
 - پاسخ باید ادعای اثر را بدون شاهد نپذیرد و محدودیت داده‌های عمومی را بیان کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_SOCIETY_RELIGION_03_SOCIAL_ACTIVISM_NONPROFITS` | Thread: `THR_SOCIETY_RELIGION_03_SOCIAL_ACTIVISM_NO`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_SOCIETY_RELIGION_03_SOCIAL_ACTIVISM_NONPROFITS` | Thread: `THR_CONCEPT_03_SOCIAL_ACTIVISM_NONPROFITS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_SOCIETY_RELIGION_03_SOCIAL_ACTIVISM_NONPROFITS"
+SOURCE_REF = "learning/society-religion/03-social-activism-nonprofits/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_SOCIETY_RELIGION_03_SOCIAL_ACTIVISM_NO"><summary>ThreadBox THR_SOCIETY_RELIGION_03_SOCIAL_ACTIVISM_NO</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_SOCIETY_RELIGION_03_SOCIAL_ACTIVISM_NONPROFITS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_SOCIAL_ACTIVISM_NONPROFITS"><summary>ThreadBox THR_CONCEPT_03_SOCIAL_ACTIVISM_NONPROFITS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

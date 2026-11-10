@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_AIDER
+source_project: MJNexus
 source_id: "res:aider"
 category: other
 wikidata_qid: ""

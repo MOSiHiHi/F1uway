@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_OPENCLAW
+source_project: MJNexus
 source_id: "res:openclaw"
 category: other
 wikidata_qid: ""

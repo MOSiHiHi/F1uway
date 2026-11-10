@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_SOCIETY_RELIGION_01_ISLAM_AND_SOURCES
+source_project: MJNexus
 domain: society-religion
 title_fa: "⭐ 01. اسلام و منابع (قرآن، حدیث، نهج‌البلاغه)"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - پاسخ باید از یک‌طرفه‌نگری و احکام قطعی بدون ارجاع به منبع پرهیز کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_SOCIETY_RELIGION_01_ISLAM_AND_SOURCES` | Thread: `THR_SOCIETY_RELIGION_01_ISLAM_AND_SOURCES`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_SOCIETY_RELIGION_01_ISLAM_AND_SOURCES` | Thread: `THR_CONCEPT_01_ISLAM_AND_SOURCES`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_SOCIETY_RELIGION_01_ISLAM_AND_SOURCES"
+SOURCE_REF = "learning/society-religion/01-islam-and-sources/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_SOCIETY_RELIGION_01_ISLAM_AND_SOURCES"><summary>ThreadBox THR_SOCIETY_RELIGION_01_ISLAM_AND_SOURCES</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_SOCIETY_RELIGION_01_ISLAM_AND_SOURCES` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_01_ISLAM_AND_SOURCES"><summary>ThreadBox THR_CONCEPT_01_ISLAM_AND_SOURCES</summary></details>
 <!-- ZONE:WORKSHEET_END -->

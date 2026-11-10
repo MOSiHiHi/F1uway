@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_SLACK
+source_project: MJNexus
 source_id: "res:slack"
 category: other
 wikidata_qid: ""

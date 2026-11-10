@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_HISTORY_MYTH_01_IRAN_WORLD_HISTORY
+source_project: MJNexus
 domain: history-myth
 title_fa: "01. تاریخ ایران و جهان"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - پاسخ باید اصطلاحات انگلیسی را در کنار معادل فارسی بیاورد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_HISTORY_MYTH_01_IRAN_WORLD_HISTORY` | Thread: `THR_HISTORY_MYTH_01_IRAN_WORLD_HISTORY`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_HISTORY_MYTH_01_IRAN_WORLD_HISTORY` | Thread: `THR_CONCEPT_01_IRAN_WORLD_HISTORY`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_HISTORY_MYTH_01_IRAN_WORLD_HISTORY"
+SOURCE_REF = "learning/history-myth/01-iran-world-history/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_HISTORY_MYTH_01_IRAN_WORLD_HISTORY"><summary>ThreadBox THR_HISTORY_MYTH_01_IRAN_WORLD_HISTORY</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_HISTORY_MYTH_01_IRAN_WORLD_HISTORY` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_01_IRAN_WORLD_HISTORY"><summary>ThreadBox THR_CONCEPT_01_IRAN_WORLD_HISTORY</summary></details>
 <!-- ZONE:WORKSHEET_END -->

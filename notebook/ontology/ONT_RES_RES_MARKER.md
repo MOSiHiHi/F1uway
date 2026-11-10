@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_MARKER
+source_project: MJNexus
 source_id: "res:marker"
 category: other
 wikidata_qid: ""

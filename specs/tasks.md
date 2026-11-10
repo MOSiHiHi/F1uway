@@ -1,3 +1,11 @@
+---
+ont_id: ONT_F1UENT_PLAYBOOKS_TASKS
+source_project: F1uent-Ecosystem
+domain: playbooks
+title_fa: "فهرست وظایف اجرایی و نقاط بازرسی فاز ۰ تا ۶ (`specs/tasks.md`)"
+content_is_data: true
+---
+<!-- ZONE:HUMAN_INTUITION_START -->
 # فهرست وظایف اجرایی و نقاط بازرسی فاز ۰ تا ۶ (`specs/tasks.md`)
 
 - [x] **فاز ۰ (Foundations & Meta-Governance):**
@@ -13,3 +21,18 @@
   - [x] `T3.1`: پیاده‌سازی فرمول‌های `BKT` و `FSRS-6` متصل به AST (`learning_engine.py`) و قفل `owner_only` رادار (`radar_nexus.py`).
 - [ ] **فاز ۴ تا ۶ (Full Ingestion Pipeline, Multi-Agent Worktrees & 3D Galaxy Studio):**
   - [ ] اتصال کانتینرهای `PostgreSQL 16 + pgvector` و `SearXNG` (`docker-compose.yml`) و اجرای اسکیل `.agents/skills/phase0-omni-audit`.
+<!-- ZONE:HUMAN_INTUITION_END -->
+<!-- ZONE:CONTRACT_START -->
+- Project: `F1uent-Ecosystem` | Ontology: `ONT_F1UENT_PLAYBOOKS_TASKS` | Thread: `THR_F1UENT_TASKS`
+<!-- ZONE:CONTRACT_END -->
+<!-- ZONE:EXECUTION_CORE_START -->
+```python
+ONT_ID = "ONT_F1UENT_PLAYBOOKS_TASKS"
+SOURCE_REF = "specs/tasks.md"
+```
+<!-- ZONE:EXECUTION_CORE_END -->
+<!-- ZONE:WORKSHEET_START -->
+## تمرین ۱۰ دقیقه‌ای (F1uent-Ecosystem)
+1. معماری و قرارداد `ONT_F1UENT_PLAYBOOKS_TASKS` در `F1uent-Ecosystem` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_F1UENT_TASKS"><summary>ThreadBox THR_F1UENT_TASKS</summary></details>
+<!-- ZONE:WORKSHEET_END -->

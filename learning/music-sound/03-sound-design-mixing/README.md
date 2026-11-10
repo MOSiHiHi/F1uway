@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MUSIC_SOUND_03_SOUND_DESIGN_MIXING
+source_project: MJNexus
 domain: music-sound
 title_fa: "03. صداسازی و میکس"
 content_is_data: true
@@ -65,15 +66,16 @@ content_is_data: true
 - پاسخ باید از ادعای «این افکت همیشه بهترین است» پرهیز کند و قضاوت را به گوش و شرایط پخش بسپارد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MUSIC_SOUND_03_SOUND_DESIGN_MIXING` | Thread: `THR_MUSIC_SOUND_03_SOUND_DESIGN_MIXING`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MUSIC_SOUND_03_SOUND_DESIGN_MIXING` | Thread: `THR_CONCEPT_03_SOUND_DESIGN_MIXING`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MUSIC_SOUND_03_SOUND_DESIGN_MIXING"
+SOURCE_REF = "learning/music-sound/03-sound-design-mixing/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MUSIC_SOUND_03_SOUND_DESIGN_MIXING"><summary>ThreadBox THR_MUSIC_SOUND_03_SOUND_DESIGN_MIXING</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MUSIC_SOUND_03_SOUND_DESIGN_MIXING` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_SOUND_DESIGN_MIXING"><summary>ThreadBox THR_CONCEPT_03_SOUND_DESIGN_MIXING</summary></details>
 <!-- ZONE:WORKSHEET_END -->

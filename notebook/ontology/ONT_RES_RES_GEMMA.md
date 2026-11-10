@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_GEMMA
+source_project: MJNexus
 source_id: "res:gemma"
 category: other
 wikidata_qid: ""

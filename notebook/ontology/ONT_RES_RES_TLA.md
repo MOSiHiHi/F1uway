@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_TLA
+source_project: MJNexus
 source_id: "res:tla"
 category: other
 wikidata_qid: ""

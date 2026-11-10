@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MEDIA_ENTERTAINMENT_02_MUSIC_SOUND
+source_project: MJNexus
 domain: media-entertainment
 title_fa: "02. موسیقی و صدا"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - اشاره به خطر کلیپینگ، پژواک و مجوز نمونه‌ها باید در پاسخ‌های پیشرفته‌تر دیده شود.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MEDIA_ENTERTAINMENT_02_MUSIC_SOUND` | Thread: `THR_MEDIA_ENTERTAINMENT_02_MUSIC_SOUND`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MEDIA_ENTERTAINMENT_02_MUSIC_SOUND` | Thread: `THR_CONCEPT_02_MUSIC_SOUND`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MEDIA_ENTERTAINMENT_02_MUSIC_SOUND"
+SOURCE_REF = "learning/media-entertainment/02-music-sound/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MEDIA_ENTERTAINMENT_02_MUSIC_SOUND"><summary>ThreadBox THR_MEDIA_ENTERTAINMENT_02_MUSIC_SOUND</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MEDIA_ENTERTAINMENT_02_MUSIC_SOUND` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_MUSIC_SOUND"><summary>ThreadBox THR_CONCEPT_02_MUSIC_SOUND</summary></details>
 <!-- ZONE:WORKSHEET_END -->

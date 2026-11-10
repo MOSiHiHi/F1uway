@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_STRIPE
+source_project: MJNexus
 source_id: "res:stripe"
 category: other
 wikidata_qid: ""

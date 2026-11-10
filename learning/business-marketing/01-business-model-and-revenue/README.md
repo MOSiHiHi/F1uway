@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_BUSINESS_MARKETING_01_BUSINESS_MODEL_AND_REVENUE
+source_project: MJNexus
 domain: business-marketing
 title_fa: "⭐ 01. مبانی کسب‌وکار و مدل درآمدی"
 content_is_data: true
@@ -63,15 +64,16 @@ content_is_data: true
 - پاسخ نباید سود تضمین‌شده ادعا کند و باید عدم قطعیت فرض‌ها را ذکر کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_BUSINESS_MARKETING_01_BUSINESS_MODEL_AND_REVENUE` | Thread: `THR_BUSINESS_MARKETING_01_BUSINESS_MODEL_A`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_BUSINESS_MARKETING_01_BUSINESS_MODEL_AND_REVENUE` | Thread: `THR_CONCEPT_01_BUSINESS_MODEL_AND_REVENUE`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_BUSINESS_MARKETING_01_BUSINESS_MODEL_AND_REVENUE"
+SOURCE_REF = "learning/business-marketing/01-business-model-and-revenue/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_BUSINESS_MARKETING_01_BUSINESS_MODEL_A"><summary>ThreadBox THR_BUSINESS_MARKETING_01_BUSINESS_MODEL_A</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_BUSINESS_MARKETING_01_BUSINESS_MODEL_AND_REVENUE` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_01_BUSINESS_MODEL_AND_REVENUE"><summary>ThreadBox THR_CONCEPT_01_BUSINESS_MODEL_AND_REVENUE</summary></details>
 <!-- ZONE:WORKSHEET_END -->

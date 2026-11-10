@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_PROGRAMMING_INFRA_05_DEVOPS_CLOUD_CONTAINERS
+source_project: MJNexus
 domain: programming-infra
 title_fa: "05. DevOps، ابر و کانتینر"
 content_is_data: true
@@ -76,15 +77,16 @@ CMD ["python", "main.py"]
 - پاسخ باید مدیریت رمزها را در خط لوله به‌درستی توضیح دهد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_PROGRAMMING_INFRA_05_DEVOPS_CLOUD_CONTAINERS` | Thread: `THR_PROGRAMMING_INFRA_05_DEVOPS_CLOUD_CONT`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_PROGRAMMING_INFRA_05_DEVOPS_CLOUD_CONTAINERS` | Thread: `THR_CONCEPT_05_DEVOPS_CLOUD_CONTAINERS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_PROGRAMMING_INFRA_05_DEVOPS_CLOUD_CONTAINERS"
+SOURCE_REF = "learning/programming-infra/05-devops-cloud-containers/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_PROGRAMMING_INFRA_05_DEVOPS_CLOUD_CONT"><summary>ThreadBox THR_PROGRAMMING_INFRA_05_DEVOPS_CLOUD_CONT</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_PROGRAMMING_INFRA_05_DEVOPS_CLOUD_CONTAINERS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_05_DEVOPS_CLOUD_CONTAINERS"><summary>ThreadBox THR_CONCEPT_05_DEVOPS_CLOUD_CONTAINERS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

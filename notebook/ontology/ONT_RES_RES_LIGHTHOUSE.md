@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_LIGHTHOUSE
+source_project: MJNexus
 source_id: "res:lighthouse"
 category: other
 wikidata_qid: ""

@@ -1,44 +1,26 @@
 ---
-doc_id: "PLAYBOOK-PHASE-1"
-doc_type: "executable_learning_spec"
-phase: "1"
-primary_task: "T1.1"
-learning_value: "HIGH"
-recommended_track: "H2_SOCRATIC_TUTOR"
-token_slice_for_ai: "CONTRACT,GOLDEN_VALUES"
+ont_id: ONT_F1UENT_PLAYBOOKS_PHASE_1_FA
+source_project: F1uent-Ecosystem
+domain: playbooks
+title_fa: "playbooks/phase-1.fa"
+content_is_data: true
 ---
-
-# 📘 پلی‌بوک خودران فاز 1: قراردادهای هسته Pydantic، تقدم استدلال و لایه نرمال‌ساز فارسی حافظ افست BiDi
-
-> 🧭 **قطب‌نمای خودران انسانی (`Autopilot Compass`):**
-> - **موقعیت شما:** فاز 1 (تسک محوری `T1.1`).
-> - **گام ۱:** بخش `ZONE:HUMAN_INTUITION` زیر را بخوانید تا شهود علمی و معماری این فاز را درک کنید.
-> - **گام ۲:** اگر هر اصطلاحی برایتان سوال شد، دستور `python3 scripts/devloop.py thread branch --span "عبارت" --title "سوال"` را بزنید.
-> - **گام ۳:** تمرین ۱۰ دقیقه‌ای انتهای صفحه (`ZONE:WORKSHEET`) را کامل کنید و با `python3 scripts/devloop.py gate` از گیت عبور کنید.
-
 <!-- ZONE:HUMAN_INTUITION_START -->
 ## ۱. داستان و شهود علمی فاز 1 (مخصوص انسان — خارج از بودجه توکن ماشین)
-در این فاز، ما بخش **قراردادهای هسته Pydantic، تقدم استدلال و لایه نرمال‌ساز فارسی حافظ افست BiDi** را بر پایه اصل «چاهک‌ها، نه لوله‌ها» (`Sinks, Not Pipes`) و چرخه دوطرفه `Build-to-Learn` $ightleftharpoons$ `Learn-to-Build` پیاده‌سازی می‌کنیم. برای مطالعه مبانی نظری عمیق این فاز، به پوشه `docs/research/` و تصمیم‌نامه‌های `docs/adr/` مراجعه کنید.
+در این فاز، ما بخش **قراردادهای هسته Pydantic، تقدم استدلال و لایه نرمال‌ساز فارسی حافظ افست BiDi** را بر پایه اصل «چاهک‌ها، نه لوله‌ها» (`Sinks, Not Pipes`) و چرخه دوطرفه `Build-to-Learn` $
+ightleftharpoons$ `Learn-to-Build` پیاده‌سازی می‌کنیم. برای مطالعه مبانی نظری عمیق این فاز، به پوشه `docs/research/` و تصمیم‌نامه‌های `docs/adr/` مراجعه کنید.
 <!-- ZONE:HUMAN_INTUITION_END -->
-
 <!-- ZONE:CONTRACT_START -->
-## ۲. قرارداد فنی ماشینی (`ZONE:CONTRACT`)
-- پیاده‌سازی و تست کامل ماژول‌های فاز 1 منطبق بر `ARCHITECTURE.md` و `ROADMAP_AND_TASKS.md` (تسک `T1.1`).
-- رعایت کامل تغییرناپذیری مدل‌ها (`extra='forbid', frozen=True`) و تفکیک کامیت‌های `struct:` از `feat:`.
+- Project: `F1uent-Ecosystem` | Ontology: `ONT_F1UENT_PLAYBOOKS_PHASE_1_FA` | Thread: `THR_F1UENT_PHASE_1_FA`
 <!-- ZONE:CONTRACT_END -->
-
-<!-- ZONE:GOLDEN_VALUES_START -->
-## ۳. مقادیر طلایی و معیار عبور (`ZONE:GOLDEN_VALUES`)
-- پاس شدن ۱۰۰٪ تست‌های واحد در `tests/test_f1_core.py` و سبز شدن `python3 scripts/devloop.py gate`.
-<!-- ZONE:GOLDEN_VALUES_END -->
-
-<!-- ZONE:THREADS_START -->
-## ۴. گراف مستطیل‌های چت و انشعابات فاز 1 (`ZONE:THREADS`)
-_توسط دستور `python3 scripts/devloop.py thread sync-md` به‌روزرسانی می‌شود._
-<!-- ZONE:THREADS_END -->
-
+<!-- ZONE:EXECUTION_CORE_START -->
+```python
+ONT_ID = "ONT_F1UENT_PLAYBOOKS_PHASE_1_FA"
+SOURCE_REF = "docs/human/playbooks/phase-1.fa.md"
+```
+<!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## ۵. تمرین ۱۰ دقیقه‌ای و کاربرگ خودسنجی (`ZONE:WORKSHEET`)
-- [ ] **پیش‌بینی قبل از اجرا:** کدام تصمیم معماری در این فاز مانع از تورم توکن و توهم هوش مصنوعی می‌شود؟
-- [ ] **ساخت میکرو-ابزار / تست:** یک تست واحد جدید در `tests/test_f1_core.py` برای یکی از موارد مرزی این فاز اضافه کنید و `python3 scripts/devloop.py gate` را اجرا نمایید.
+## تمرین ۱۰ دقیقه‌ای (F1uent-Ecosystem)
+1. معماری و قرارداد `ONT_F1UENT_PLAYBOOKS_PHASE_1_FA` در `F1uent-Ecosystem` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_F1UENT_PHASE_1_FA"><summary>ThreadBox THR_F1UENT_PHASE_1_FA</summary></details>
 <!-- ZONE:WORKSHEET_END -->

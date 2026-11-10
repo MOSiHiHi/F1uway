@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_HISTORY_MYTH_02_MYTHOLOGY_FOLKLORE
+source_project: MJNexus
 domain: history-myth
 title_fa: "02. اسطوره‌شناسی و فولکلور"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - تحلیل تغییرات روایت باید میان تغییر فرهنگی و تغییر تصادفی تمایز بگذارد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_HISTORY_MYTH_02_MYTHOLOGY_FOLKLORE` | Thread: `THR_HISTORY_MYTH_02_MYTHOLOGY_FOLKLORE`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_HISTORY_MYTH_02_MYTHOLOGY_FOLKLORE` | Thread: `THR_CONCEPT_02_MYTHOLOGY_FOLKLORE`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_HISTORY_MYTH_02_MYTHOLOGY_FOLKLORE"
+SOURCE_REF = "learning/history-myth/02-mythology-folklore/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_HISTORY_MYTH_02_MYTHOLOGY_FOLKLORE"><summary>ThreadBox THR_HISTORY_MYTH_02_MYTHOLOGY_FOLKLORE</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_HISTORY_MYTH_02_MYTHOLOGY_FOLKLORE` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_MYTHOLOGY_FOLKLORE"><summary>ThreadBox THR_CONCEPT_02_MYTHOLOGY_FOLKLORE</summary></details>
 <!-- ZONE:WORKSHEET_END -->

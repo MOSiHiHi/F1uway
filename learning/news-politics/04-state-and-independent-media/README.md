@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_NEWS_POLITICS_04_STATE_AND_INDEPENDENT_MEDIA
+source_project: MJNexus
 domain: news-politics
 title_fa: "04. رسانه‌های دولتی و مستقل (با یادداشت منبع)"
 content_is_data: true
@@ -65,15 +66,16 @@ content_is_data: true
 - ارزیابی باید بدون برچسب‌زدن قطعی و بر پایهٔ شواهد باشد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_NEWS_POLITICS_04_STATE_AND_INDEPENDENT_MEDIA` | Thread: `THR_NEWS_POLITICS_04_STATE_AND_INDEPENDENT`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_NEWS_POLITICS_04_STATE_AND_INDEPENDENT_MEDIA` | Thread: `THR_CONCEPT_04_STATE_AND_INDEPENDENT_MEDIA`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_NEWS_POLITICS_04_STATE_AND_INDEPENDENT_MEDIA"
+SOURCE_REF = "learning/news-politics/04-state-and-independent-media/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_NEWS_POLITICS_04_STATE_AND_INDEPENDENT"><summary>ThreadBox THR_NEWS_POLITICS_04_STATE_AND_INDEPENDENT</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_NEWS_POLITICS_04_STATE_AND_INDEPENDENT_MEDIA` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_04_STATE_AND_INDEPENDENT_MEDIA"><summary>ThreadBox THR_CONCEPT_04_STATE_AND_INDEPENDENT_MEDIA</summary></details>
 <!-- ZONE:WORKSHEET_END -->

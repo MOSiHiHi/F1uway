@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MATH_04_PROBABILITY_STATS
+source_project: MJNexus
 domain: math
 title_fa: "⭐ ۴. احتمال و آمار"
 content_is_data: true
@@ -77,15 +78,16 @@ content_is_data: true
 - پاسخ باید خطاهای تفسیر (وارونه‌کردن شرط، همبستگی و علیت) را از هم تشخیص دهد و هرجا لازم است به نمونهٔ سوگیرانه یا کوچک اشاره کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MATH_04_PROBABILITY_STATS` | Thread: `THR_MATH_04_PROBABILITY_STATS`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MATH_04_PROBABILITY_STATS` | Thread: `THR_CONCEPT_04_PROBABILITY_STATS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MATH_04_PROBABILITY_STATS"
+SOURCE_REF = "learning/math/04-probability-stats/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MATH_04_PROBABILITY_STATS"><summary>ThreadBox THR_MATH_04_PROBABILITY_STATS</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MATH_04_PROBABILITY_STATS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_04_PROBABILITY_STATS"><summary>ThreadBox THR_CONCEPT_04_PROBABILITY_STATS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

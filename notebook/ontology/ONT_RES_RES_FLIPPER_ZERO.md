@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_FLIPPER_ZERO
+source_project: MJNexus
 source_id: "res:flipper-zero"
 category: other
 wikidata_qid: ""

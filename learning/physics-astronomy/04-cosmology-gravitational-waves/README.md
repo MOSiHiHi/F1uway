@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_PHYSICS_ASTRONOMY_04_COSMOLOGY_GRAVITATIONAL_WAVES
+source_project: MJNexus
 domain: physics-astronomy
 title_fa: "04. کیهان‌شناسی و موج گرانشی"
 content_is_data: true
@@ -64,15 +65,16 @@ content_is_data: true
 - باید میان شواهد مشاهده‌ای و تفسیرهای نظری (مانند ماده تاریک) تمایز بگذارد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_PHYSICS_ASTRONOMY_04_COSMOLOGY_GRAVITATIONAL_WAVES` | Thread: `THR_PHYSICS_ASTRONOMY_04_COSMOLOGY_GRAVITA`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_PHYSICS_ASTRONOMY_04_COSMOLOGY_GRAVITATIONAL_WAVES` | Thread: `THR_CONCEPT_04_COSMOLOGY_GRAVITATIONAL_WAV`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_PHYSICS_ASTRONOMY_04_COSMOLOGY_GRAVITATIONAL_WAVES"
+SOURCE_REF = "learning/physics-astronomy/04-cosmology-gravitational-waves/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_PHYSICS_ASTRONOMY_04_COSMOLOGY_GRAVITA"><summary>ThreadBox THR_PHYSICS_ASTRONOMY_04_COSMOLOGY_GRAVITA</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_PHYSICS_ASTRONOMY_04_COSMOLOGY_GRAVITATIONAL_WAVES` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_04_COSMOLOGY_GRAVITATIONAL_WAV"><summary>ThreadBox THR_CONCEPT_04_COSMOLOGY_GRAVITATIONAL_WAV</summary></details>
 <!-- ZONE:WORKSHEET_END -->

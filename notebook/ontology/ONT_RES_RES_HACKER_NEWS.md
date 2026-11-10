@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_HACKER_NEWS
+source_project: MJNexus
 source_id: "res:hacker-news"
 category: other
 wikidata_qid: ""

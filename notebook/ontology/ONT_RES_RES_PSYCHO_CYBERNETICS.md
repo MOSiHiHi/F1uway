@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_PSYCHO_CYBERNETICS
+source_project: MJNexus
 source_id: "res:psycho-cybernetics"
 category: other
 wikidata_qid: ""

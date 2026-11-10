@@ -1,3 +1,11 @@
+---
+ont_id: ONT_F1UXUS_RESEARCH_07_MARKDOWN_CONTEXT_ENGINEERING_FA
+source_project: F1uxus
+domain: research
+title_fa: "کالبدشکافی جامع فایل‌های مارک‌داون در مهندسی زمینه: استانداردها، معماری‌ها و الگوهای عامل‌های هوشمند"
+content_is_data: true
+---
+<!-- ZONE:HUMAN_INTUITION_START -->
 # کالبدشکافی جامع فایل‌های مارک‌داون در مهندسی زمینه: استانداردها، معماری‌ها و الگوهای عامل‌های هوشمند
 
 ## گذار پارادایمی از مهندسی پرامپت به مهندسی زمینه مبتنی بر فایل
@@ -127,3 +135,18 @@
 
 Source: https://gemini.google.com/u/1/app/5792251660fd9086
 Exported at: 2026-11-07T09:47:52.774Z
+<!-- ZONE:HUMAN_INTUITION_END -->
+<!-- ZONE:CONTRACT_START -->
+- Project: `F1uxus` | Ontology: `ONT_F1UXUS_RESEARCH_07_MARKDOWN_CONTEXT_ENGINEERING_FA` | Thread: `THR_F1UXUS_07_MARKDOWN_CONTEXT_ENGINEERING`
+<!-- ZONE:CONTRACT_END -->
+<!-- ZONE:EXECUTION_CORE_START -->
+```python
+ONT_ID = "ONT_F1UXUS_RESEARCH_07_MARKDOWN_CONTEXT_ENGINEERING_FA"
+SOURCE_REF = "initdb/01_schema.sql"
+```
+<!-- ZONE:EXECUTION_CORE_END -->
+<!-- ZONE:WORKSHEET_START -->
+## تمرین ۱۰ دقیقه‌ای (F1uxus)
+1. معماری و قرارداد `ONT_F1UXUS_RESEARCH_07_MARKDOWN_CONTEXT_ENGINEERING_FA` در `F1uxus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_F1UXUS_07_MARKDOWN_CONTEXT_ENGINEERING"><summary>ThreadBox THR_F1UXUS_07_MARKDOWN_CONTEXT_ENGINEERING</summary></details>
+<!-- ZONE:WORKSHEET_END -->

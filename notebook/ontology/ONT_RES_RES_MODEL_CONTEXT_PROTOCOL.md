@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_MODEL_CONTEXT_PROTOCOL
+source_project: MJNexus
 source_id: "res:model-context-protocol"
 category: other
 wikidata_qid: ""

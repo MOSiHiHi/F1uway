@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_NVIDIA
+source_project: MJNexus
 source_id: "res:nvidia"
 category: other
 wikidata_qid: ""

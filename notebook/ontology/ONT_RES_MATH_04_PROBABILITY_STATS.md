@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_MATH_04_PROBABILITY_STATS
+source_project: MJNexus
 source_id: "concept:math/04-probability-stats"
 category: other
 wikidata_qid: ""

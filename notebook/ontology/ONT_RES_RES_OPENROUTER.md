@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_OPENROUTER
+source_project: MJNexus
 source_id: "res:openrouter"
 category: other
 wikidata_qid: ""

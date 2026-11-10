@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_AFTER_EFFECTS
+source_project: MJNexus
 source_id: "res:after-effects"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_CLAUDE_4_6
+source_project: MJNexus
 source_id: "res:claude-4-6"
 category: other
 wikidata_qid: ""

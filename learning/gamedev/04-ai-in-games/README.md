@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_GAMEDEV_04_AI_IN_GAMES
+source_project: MJNexus
 domain: gamedev
 title_fa: "⭐ ۴. هوش مصنوعی در بازی"
 content_is_data: true
@@ -72,15 +73,16 @@ content_is_data: true
 - پاسخ باید رفتار NPC را با دید و اطلاعات محدود بازیکن در نظر بگیرد، نه با دانش کامل.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_GAMEDEV_04_AI_IN_GAMES` | Thread: `THR_GAMEDEV_04_AI_IN_GAMES`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_GAMEDEV_04_AI_IN_GAMES` | Thread: `THR_CONCEPT_04_AI_IN_GAMES`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_GAMEDEV_04_AI_IN_GAMES"
+SOURCE_REF = "learning/gamedev/04-ai-in-games/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_GAMEDEV_04_AI_IN_GAMES"><summary>ThreadBox THR_GAMEDEV_04_AI_IN_GAMES</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_GAMEDEV_04_AI_IN_GAMES` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_04_AI_IN_GAMES"><summary>ThreadBox THR_CONCEPT_04_AI_IN_GAMES</summary></details>
 <!-- ZONE:WORKSHEET_END -->

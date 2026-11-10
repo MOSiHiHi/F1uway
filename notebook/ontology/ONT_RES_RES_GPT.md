@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_GPT
+source_project: MJNexus
 source_id: "res:gpt"
 category: other
 wikidata_qid: ""

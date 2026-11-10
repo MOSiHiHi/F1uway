@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_SPOTIFY
+source_project: MJNexus
 source_id: "res:spotify"
 category: other
 wikidata_qid: ""

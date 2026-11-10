@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_HARDWARE_TECH_PRIVACY_01_HARDWARE_CHOICE
+source_project: MJNexus
 domain: hardware-tech-privacy
 title_fa: "⭐ 01. انتخاب سخت‌افزار (کامپیوتر، کنسول، گیمینگ)"
 ---

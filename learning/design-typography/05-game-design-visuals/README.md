@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_DESIGN_TYPOGRAPHY_05_GAME_DESIGN_VISUALS
+source_project: MJNexus
 domain: design-typography
 title_fa: "05. طراحی برای بازی (رابط بازی، هنر مفهومی)"
 content_is_data: true
@@ -67,15 +68,16 @@ content_is_data: true
 - پاسخ باید تفاوت رابط بازی با رابط اپ را در محدودیت زمان و ورودی توضیح دهد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_DESIGN_TYPOGRAPHY_05_GAME_DESIGN_VISUALS` | Thread: `THR_DESIGN_TYPOGRAPHY_05_GAME_DESIGN_VISUA`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_DESIGN_TYPOGRAPHY_05_GAME_DESIGN_VISUALS` | Thread: `THR_CONCEPT_05_GAME_DESIGN_VISUALS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_DESIGN_TYPOGRAPHY_05_GAME_DESIGN_VISUALS"
+SOURCE_REF = "learning/design-typography/05-game-design-visuals/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_DESIGN_TYPOGRAPHY_05_GAME_DESIGN_VISUA"><summary>ThreadBox THR_DESIGN_TYPOGRAPHY_05_GAME_DESIGN_VISUA</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_DESIGN_TYPOGRAPHY_05_GAME_DESIGN_VISUALS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_05_GAME_DESIGN_VISUALS"><summary>ThreadBox THR_CONCEPT_05_GAME_DESIGN_VISUALS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

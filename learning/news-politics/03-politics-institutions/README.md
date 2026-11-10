@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_NEWS_POLITICS_03_POLITICS_INSTITUTIONS
+source_project: MJNexus
 domain: news-politics
 title_fa: "03. سیاست و نهادهای حکومتی"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - تحلیل باید بر ساختار نهاد تمرکز داشته باشد، نه بر داوری شخصی دربارهٔ افراد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_NEWS_POLITICS_03_POLITICS_INSTITUTIONS` | Thread: `THR_NEWS_POLITICS_03_POLITICS_INSTITUTIONS`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_NEWS_POLITICS_03_POLITICS_INSTITUTIONS` | Thread: `THR_CONCEPT_03_POLITICS_INSTITUTIONS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_NEWS_POLITICS_03_POLITICS_INSTITUTIONS"
+SOURCE_REF = "learning/news-politics/03-politics-institutions/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_NEWS_POLITICS_03_POLITICS_INSTITUTIONS"><summary>ThreadBox THR_NEWS_POLITICS_03_POLITICS_INSTITUTIONS</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_NEWS_POLITICS_03_POLITICS_INSTITUTIONS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_POLITICS_INSTITUTIONS"><summary>ThreadBox THR_CONCEPT_03_POLITICS_INSTITUTIONS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_GITHUB
+source_project: MJNexus
 source_id: "res:github"
 category: other
 wikidata_qid: ""

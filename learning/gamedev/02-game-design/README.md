@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_GAMEDEV_02_GAME_DESIGN
+source_project: MJNexus
 domain: gamedev
 title_fa: "⭐ ۲. طراحی بازی و حلقهٔ گیم‌پلی"
 content_is_data: true
@@ -71,15 +72,16 @@ content_is_data: true
 - پاسخ باید تست را با بازیکن تازه‌وارد و مشاهدهٔ رفتار، نه نظر، همراه کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_GAMEDEV_02_GAME_DESIGN` | Thread: `THR_GAMEDEV_02_GAME_DESIGN`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_GAMEDEV_02_GAME_DESIGN` | Thread: `THR_CONCEPT_02_GAME_DESIGN`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_GAMEDEV_02_GAME_DESIGN"
+SOURCE_REF = "learning/gamedev/02-game-design/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_GAMEDEV_02_GAME_DESIGN"><summary>ThreadBox THR_GAMEDEV_02_GAME_DESIGN</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_GAMEDEV_02_GAME_DESIGN` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_GAME_DESIGN"><summary>ThreadBox THR_CONCEPT_02_GAME_DESIGN</summary></details>
 <!-- ZONE:WORKSHEET_END -->

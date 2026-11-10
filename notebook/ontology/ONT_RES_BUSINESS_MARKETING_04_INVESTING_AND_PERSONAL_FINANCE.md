@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_BUSINESS_MARKETING_04_INVESTING_AND_PERSONAL_FINANCE
+source_project: MJNexus
 source_id: "concept:business-marketing/04-investing-and-personal-finance"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_GAMEDEV_05_MATH_PHYSICS
+source_project: MJNexus
 domain: gamedev
 title_fa: "⭐ ۵. ریاضی و فیزیک بازی"
 content_is_data: true
@@ -77,15 +78,16 @@ content_is_data: true
 - پاسخ باید در تحلیل‌ها واحدهای زمان و زاویه را به‌درستی ذکر کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_GAMEDEV_05_MATH_PHYSICS` | Thread: `THR_GAMEDEV_05_MATH_PHYSICS`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_GAMEDEV_05_MATH_PHYSICS` | Thread: `THR_CONCEPT_05_MATH_PHYSICS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_GAMEDEV_05_MATH_PHYSICS"
+SOURCE_REF = "learning/gamedev/05-math-physics/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_GAMEDEV_05_MATH_PHYSICS"><summary>ThreadBox THR_GAMEDEV_05_MATH_PHYSICS</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_GAMEDEV_05_MATH_PHYSICS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_05_MATH_PHYSICS"><summary>ThreadBox THR_CONCEPT_05_MATH_PHYSICS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

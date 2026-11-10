@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_GAMEDEV_02_GAME_DESIGN
+source_project: MJNexus
 domain: gamedev
 title_fa: "⭐ ۲. طراحی بازی و حلقهٔ گیم‌پلی"
 ---

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_GOOGLE_GEMINI
+source_project: MJNexus
 source_id: "res:google-gemini"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MUSIC_SOUND_02_DAW_PRODUCTION
+source_project: MJNexus
 domain: music-sound
 title_fa: "⭐ 02. ساخت موسیقی با نرم‌افزار (DAW، مثل FL Studio)"
 ---

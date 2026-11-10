@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_AI_01_LLM_BASICS
+source_project: MJNexus
 source_id: "concept:ai/01-llm-basics"
 category: other
 wikidata_qid: ""

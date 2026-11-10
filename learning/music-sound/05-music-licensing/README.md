@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MUSIC_SOUND_05_MUSIC_LICENSING
+source_project: MJNexus
 domain: music-sound
 title_fa: "05. مجوز و استفاده از موسیقی"
 content_is_data: true
@@ -65,15 +66,16 @@ content_is_data: true
 - پاسخ باید تأکید کند که این مطالب اطلاع‌رسانی عمومی است و در موارد پیچیده باید با متخصص حقوقی مشورت شود.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MUSIC_SOUND_05_MUSIC_LICENSING` | Thread: `THR_MUSIC_SOUND_05_MUSIC_LICENSING`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MUSIC_SOUND_05_MUSIC_LICENSING` | Thread: `THR_CONCEPT_05_MUSIC_LICENSING`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MUSIC_SOUND_05_MUSIC_LICENSING"
+SOURCE_REF = "learning/music-sound/05-music-licensing/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MUSIC_SOUND_05_MUSIC_LICENSING"><summary>ThreadBox THR_MUSIC_SOUND_05_MUSIC_LICENSING</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MUSIC_SOUND_05_MUSIC_LICENSING` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_05_MUSIC_LICENSING"><summary>ThreadBox THR_CONCEPT_05_MUSIC_LICENSING</summary></details>
 <!-- ZONE:WORKSHEET_END -->

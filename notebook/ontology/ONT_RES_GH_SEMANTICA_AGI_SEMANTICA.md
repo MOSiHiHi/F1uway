@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_GH_SEMANTICA_AGI_SEMANTICA
+source_project: MJNexus
 source_id: "gh:semantica-agi/semantica"
 category: other
 wikidata_qid: ""

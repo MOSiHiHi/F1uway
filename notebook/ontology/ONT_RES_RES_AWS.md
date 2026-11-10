@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_AWS
+source_project: MJNexus
 source_id: "res:aws"
 category: other
 wikidata_qid: ""

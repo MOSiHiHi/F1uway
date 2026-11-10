@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_QWEN_IMAGE_2_1_TURBO
+source_project: MJNexus
 source_id: "res:qwen-image-2-1-turbo"
 category: other
 wikidata_qid: ""

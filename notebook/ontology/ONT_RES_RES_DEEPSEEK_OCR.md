@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_DEEPSEEK_OCR
+source_project: MJNexus
 source_id: "res:deepseek-ocr"
 category: other
 wikidata_qid: ""

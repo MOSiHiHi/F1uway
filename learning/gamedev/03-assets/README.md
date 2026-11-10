@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_GAMEDEV_03_ASSETS
+source_project: MJNexus
 domain: gamedev
 title_fa: "⭐ ۳. پایپ‌لاین دارایی دوبعدی و سه‌بعدی"
 content_is_data: true
@@ -78,15 +79,16 @@ content_is_data: true
 - پاسخ باید در بحث دارایی، مجوز و شرط استفاده (از جمله شرایط ابزارهای AI) را به‌عنوان بخشی از تصمیم در نظر بگیرد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_GAMEDEV_03_ASSETS` | Thread: `THR_GAMEDEV_03_ASSETS`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_GAMEDEV_03_ASSETS` | Thread: `THR_CONCEPT_03_ASSETS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_GAMEDEV_03_ASSETS"
+SOURCE_REF = "learning/gamedev/03-assets/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_GAMEDEV_03_ASSETS"><summary>ThreadBox THR_GAMEDEV_03_ASSETS</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_GAMEDEV_03_ASSETS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_ASSETS"><summary>ThreadBox THR_CONCEPT_03_ASSETS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

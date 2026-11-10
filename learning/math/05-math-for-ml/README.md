@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MATH_05_MATH_FOR_ML
+source_project: MJNexus
 domain: math
 title_fa: "⭐ ۵. ریاضی برای یادگیری ماشین"
 content_is_data: true
@@ -83,15 +84,16 @@ content_is_data: true
 - پاسخ‌های محاسباتی باید ابعاد و مراحل را نشان دهند و نتیجهٔ عددی را با بررسی جمع احتمال‌ها تأیید کنند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MATH_05_MATH_FOR_ML` | Thread: `THR_MATH_05_MATH_FOR_ML`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MATH_05_MATH_FOR_ML` | Thread: `THR_CONCEPT_05_MATH_FOR_ML`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MATH_05_MATH_FOR_ML"
+SOURCE_REF = "learning/math/05-math-for-ml/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MATH_05_MATH_FOR_ML"><summary>ThreadBox THR_MATH_05_MATH_FOR_ML</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MATH_05_MATH_FOR_ML` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_05_MATH_FOR_ML"><summary>ThreadBox THR_CONCEPT_05_MATH_FOR_ML</summary></details>
 <!-- ZONE:WORKSHEET_END -->

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_THE_MAKING_OF_THE_ATOMIC_BOMB
+source_project: MJNexus
 source_id: "res:the-making-of-the-atomic-bomb"
 category: other
 wikidata_qid: ""

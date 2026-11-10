@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_MISTRAL
+source_project: MJNexus
 source_id: "res:mistral"
 category: other
 wikidata_qid: ""

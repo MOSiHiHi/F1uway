@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_GOOGLE_SHEETS
+source_project: MJNexus
 source_id: "res:google-sheets"
 category: other
 wikidata_qid: ""

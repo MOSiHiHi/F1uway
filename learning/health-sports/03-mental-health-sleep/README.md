@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_HEALTH_SPORTS_03_MENTAL_HEALTH_SLEEP
+source_project: MJNexus
 domain: health-sports
 title_fa: "03. سلامت روان و خواب"
 content_is_data: true
@@ -67,15 +68,16 @@ content_is_data: true
 - از وعده‌های قطعی مانند «این روش همه‌چیز را حل می‌کند» پرهیز شده باشد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_HEALTH_SPORTS_03_MENTAL_HEALTH_SLEEP` | Thread: `THR_HEALTH_SPORTS_03_MENTAL_HEALTH_SLEEP`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_HEALTH_SPORTS_03_MENTAL_HEALTH_SLEEP` | Thread: `THR_CONCEPT_03_MENTAL_HEALTH_SLEEP`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_HEALTH_SPORTS_03_MENTAL_HEALTH_SLEEP"
+SOURCE_REF = "learning/health-sports/03-mental-health-sleep/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_HEALTH_SPORTS_03_MENTAL_HEALTH_SLEEP"><summary>ThreadBox THR_HEALTH_SPORTS_03_MENTAL_HEALTH_SLEEP</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_HEALTH_SPORTS_03_MENTAL_HEALTH_SLEEP` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_MENTAL_HEALTH_SLEEP"><summary>ThreadBox THR_CONCEPT_03_MENTAL_HEALTH_SLEEP</summary></details>
 <!-- ZONE:WORKSHEET_END -->

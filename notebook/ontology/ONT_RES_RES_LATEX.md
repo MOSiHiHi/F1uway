@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_LATEX
+source_project: MJNexus
 source_id: "res:latex"
 category: other
 wikidata_qid: ""

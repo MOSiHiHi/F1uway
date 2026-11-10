@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_PROGRAMMING_INFRA_06_SOFTWARE_SECURITY
+source_project: MJNexus
 domain: programming-infra
 title_fa: "06. امنیت نرم‌افزار (مرز با امنیت سایبری)"
 content_is_data: true
@@ -73,15 +74,16 @@ cur.execute("SELECT * FROM users WHERE name = %s", (name,))
 - کد امن باید از پارامتر یا ابزار معادل استفاده کند و صرفاً ظاهر ورودی را پاک نکند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_PROGRAMMING_INFRA_06_SOFTWARE_SECURITY` | Thread: `THR_PROGRAMMING_INFRA_06_SOFTWARE_SECURITY`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_PROGRAMMING_INFRA_06_SOFTWARE_SECURITY` | Thread: `THR_CONCEPT_06_SOFTWARE_SECURITY`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_PROGRAMMING_INFRA_06_SOFTWARE_SECURITY"
+SOURCE_REF = "learning/programming-infra/06-software-security/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_PROGRAMMING_INFRA_06_SOFTWARE_SECURITY"><summary>ThreadBox THR_PROGRAMMING_INFRA_06_SOFTWARE_SECURITY</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_PROGRAMMING_INFRA_06_SOFTWARE_SECURITY` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_06_SOFTWARE_SECURITY"><summary>ThreadBox THR_CONCEPT_06_SOFTWARE_SECURITY</summary></details>
 <!-- ZONE:WORKSHEET_END -->

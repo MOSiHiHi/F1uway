@@ -1,3 +1,11 @@
+---
+ont_id: ONT_F1UXUS_RESEARCH_03_SEMANTIC_ENTROPY_AND_ALIGNMENT_FA
+source_project: F1uxus
+domain: research
+title_fa: "ارزیابی جامع راهکارهای وب‌پایه برای ایده‌پردازی، معماری و مهندسی تعاملی نرم‌افزار: تحلیل بنچمارک‌های مرجع و چارچوب‌های برنامه‌ریزی استدلال‌محور"
+content_is_data: true
+---
+<!-- ZONE:HUMAN_INTUITION_START -->
 # ارزیابی جامع راهکارهای وب‌پایه برای ایده‌پردازی، معماری و مهندسی تعاملی نرم‌افزار: تحلیل بنچمارک‌های مرجع و چارچوب‌های برنامه‌ریزی استدلال‌محور
 
 ## دگرگونی پارادایم مهندسی نرم‌افزار: گذار از کدنویسی شهودی به مهندسی مشخصات‌محور
@@ -117,3 +125,18 @@
 
 Source: https://gemini.google.com/u/1/app/5c56f89d6c3c3101
 Exported at: 2026-10-26T13:14:57.565Z
+<!-- ZONE:HUMAN_INTUITION_END -->
+<!-- ZONE:CONTRACT_START -->
+- Project: `F1uxus` | Ontology: `ONT_F1UXUS_RESEARCH_03_SEMANTIC_ENTROPY_AND_ALIGNMENT_FA` | Thread: `THR_F1UXUS_03_SEMANTIC_ENTROPY_AND_ALIGNME`
+<!-- ZONE:CONTRACT_END -->
+<!-- ZONE:EXECUTION_CORE_START -->
+```python
+ONT_ID = "ONT_F1UXUS_RESEARCH_03_SEMANTIC_ENTROPY_AND_ALIGNMENT_FA"
+SOURCE_REF = "initdb/01_schema.sql"
+```
+<!-- ZONE:EXECUTION_CORE_END -->
+<!-- ZONE:WORKSHEET_START -->
+## تمرین ۱۰ دقیقه‌ای (F1uxus)
+1. معماری و قرارداد `ONT_F1UXUS_RESEARCH_03_SEMANTIC_ENTROPY_AND_ALIGNMENT_FA` در `F1uxus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_F1UXUS_03_SEMANTIC_ENTROPY_AND_ALIGNME"><summary>ThreadBox THR_F1UXUS_03_SEMANTIC_ENTROPY_AND_ALIGNME</summary></details>
+<!-- ZONE:WORKSHEET_END -->

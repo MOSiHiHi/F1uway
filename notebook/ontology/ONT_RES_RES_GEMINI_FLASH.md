@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_GEMINI_FLASH
+source_project: MJNexus
 source_id: "res:gemini-flash"
 category: other
 wikidata_qid: ""

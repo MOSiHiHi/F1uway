@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_SOCIETY_RELIGION_02_RELIGIONS_COMPARATIVE
+source_project: MJNexus
 source_id: "concept:society-religion/02-religions-comparative"
 category: other
 wikidata_qid: ""

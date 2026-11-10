@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_STEAM
+source_project: MJNexus
 source_id: "res:steam"
 category: other
 wikidata_qid: ""

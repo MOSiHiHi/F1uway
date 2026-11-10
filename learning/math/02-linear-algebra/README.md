@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MATH_02_LINEAR_ALGEBRA
+source_project: MJNexus
 domain: math
 title_fa: "⭐ ۲. جبر خطی"
 content_is_data: true
@@ -75,15 +76,16 @@ content_is_data: true
 - پاسخ‌ها باید ابعاد ماتریس‌ها را در هر مرحله بررسی کنند، نه فقط نتیجهٔ عددی را.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MATH_02_LINEAR_ALGEBRA` | Thread: `THR_MATH_02_LINEAR_ALGEBRA`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MATH_02_LINEAR_ALGEBRA` | Thread: `THR_CONCEPT_02_LINEAR_ALGEBRA`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MATH_02_LINEAR_ALGEBRA"
+SOURCE_REF = "learning/math/02-linear-algebra/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MATH_02_LINEAR_ALGEBRA"><summary>ThreadBox THR_MATH_02_LINEAR_ALGEBRA</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MATH_02_LINEAR_ALGEBRA` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_LINEAR_ALGEBRA"><summary>ThreadBox THR_CONCEPT_02_LINEAR_ALGEBRA</summary></details>
 <!-- ZONE:WORKSHEET_END -->

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_AI_02_PROMPTING
+source_project: MJNexus
 domain: ai
 title_fa: "⭐ ۲. پرامپت‌نویسی و ارزیابی خروجی"
 content_is_data: true
@@ -65,15 +66,16 @@ content_is_data: true
 - پاسخ باید نشان دهد که خروجی‌های دقیق با معیار قابل‌تکرار سنجیده می‌شوند، نه با حس کلی.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_AI_02_PROMPTING` | Thread: `THR_AI_02_PROMPTING`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_AI_02_PROMPTING` | Thread: `THR_CONCEPT_02_PROMPTING`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_AI_02_PROMPTING"
+SOURCE_REF = "learning/ai/02-prompting/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_AI_02_PROMPTING"><summary>ThreadBox THR_AI_02_PROMPTING</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_AI_02_PROMPTING` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_PROMPTING"><summary>ThreadBox THR_CONCEPT_02_PROMPTING</summary></details>
 <!-- ZONE:WORKSHEET_END -->

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_OLLAMA
+source_project: MJNexus
 source_id: "res:ollama"
 category: other
 wikidata_qid: ""

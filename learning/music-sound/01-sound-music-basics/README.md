@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MUSIC_SOUND_01_SOUND_MUSIC_BASICS
+source_project: MJNexus
 domain: music-sound
 title_fa: "⭐ 01. مبانی صدا و موسیقی (ریتم، هارمونی، فرکانس)"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - پاسخ باید از اصطلاحات بدون توضیح یا ادعاهای غیرقابل بررسی پرهیز کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MUSIC_SOUND_01_SOUND_MUSIC_BASICS` | Thread: `THR_MUSIC_SOUND_01_SOUND_MUSIC_BASICS`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MUSIC_SOUND_01_SOUND_MUSIC_BASICS` | Thread: `THR_CONCEPT_01_SOUND_MUSIC_BASICS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MUSIC_SOUND_01_SOUND_MUSIC_BASICS"
+SOURCE_REF = "learning/music-sound/01-sound-music-basics/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MUSIC_SOUND_01_SOUND_MUSIC_BASICS"><summary>ThreadBox THR_MUSIC_SOUND_01_SOUND_MUSIC_BASICS</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MUSIC_SOUND_01_SOUND_MUSIC_BASICS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_01_SOUND_MUSIC_BASICS"><summary>ThreadBox THR_CONCEPT_01_SOUND_MUSIC_BASICS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

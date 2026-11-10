@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_LEARNING_LANGUAGE_BOOKS_02_SECOND_LANGUAGE_AND_LINGU
+source_project: MJNexus
 domain: learning-language-books
 title_fa: "⭐ 02. زبان دوم و زبان‌شناسی"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - منابع پیشنهادی باید با هدف یادگیری تناسب داشته باشند و دلیل انتخاب آن‌ها بیان شود.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_LEARNING_LANGUAGE_BOOKS_02_SECOND_LANGUAGE_AND_LINGU` | Thread: `THR_LEARNING_LANGUAGE_BOOKS_02_SECOND_LANG`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_LEARNING_LANGUAGE_BOOKS_02_SECOND_LANGUAGE_AND_LINGU` | Thread: `THR_CONCEPT_02_SECOND_LANGUAGE_AND_LINGUIS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_LEARNING_LANGUAGE_BOOKS_02_SECOND_LANGUAGE_AND_LINGU"
+SOURCE_REF = "learning/learning-language-books/02-second-language-and-linguistics/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_LEARNING_LANGUAGE_BOOKS_02_SECOND_LANG"><summary>ThreadBox THR_LEARNING_LANGUAGE_BOOKS_02_SECOND_LANG</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_LEARNING_LANGUAGE_BOOKS_02_SECOND_LANGUAGE_AND_LINGU` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_SECOND_LANGUAGE_AND_LINGUIS"><summary>ThreadBox THR_CONCEPT_02_SECOND_LANGUAGE_AND_LINGUIS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

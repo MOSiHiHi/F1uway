@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_SOCIETY_RELIGION_02_RELIGIONS_COMPARATIVE
+source_project: MJNexus
 domain: society-religion
 title_fa: "02. ادیان و مطالعات تطبیقی"
 content_is_data: true
@@ -64,15 +65,16 @@ content_is_data: true
 - چارچوب مقایسه باید سه محور مشخص داشته باشد و محدودیت‌های آن صادقانه بیان شود.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_SOCIETY_RELIGION_02_RELIGIONS_COMPARATIVE` | Thread: `THR_SOCIETY_RELIGION_02_RELIGIONS_COMPARAT`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_SOCIETY_RELIGION_02_RELIGIONS_COMPARATIVE` | Thread: `THR_CONCEPT_02_RELIGIONS_COMPARATIVE`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_SOCIETY_RELIGION_02_RELIGIONS_COMPARATIVE"
+SOURCE_REF = "learning/society-religion/02-religions-comparative/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_SOCIETY_RELIGION_02_RELIGIONS_COMPARAT"><summary>ThreadBox THR_SOCIETY_RELIGION_02_RELIGIONS_COMPARAT</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_SOCIETY_RELIGION_02_RELIGIONS_COMPARATIVE` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_RELIGIONS_COMPARATIVE"><summary>ThreadBox THR_CONCEPT_02_RELIGIONS_COMPARATIVE</summary></details>
 <!-- ZONE:WORKSHEET_END -->

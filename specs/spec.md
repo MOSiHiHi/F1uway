@@ -1,3 +1,11 @@
+---
+ont_id: ONT_F1UENT_PLAYBOOKS_SPEC
+source_project: F1uent-Ecosystem
+domain: playbooks
+title_fa: "قرارداد رسمی مشخصات سیستم (`specs/spec.md` — SDD Single Source of Truth)"
+content_is_data: true
+---
+<!-- ZONE:HUMAN_INTUITION_START -->
 # قرارداد رسمی مشخصات سیستم (`specs/spec.md` — SDD Single Source of Truth)
 
 ## ۱. نمای کلی و سناریوهای کاربری اولویت‌بندی‌شده
@@ -20,3 +28,18 @@
   - [x] حفظ مختصات کاراکتری (`char_span`) در نرمال‌سازی متون فارسی (`normalize_persian_with_offsets`).
   - [x] اتصال مستقیم رکورد تسلط (`CompetenceRecord` با `BKT + FSRS-6`) به نمادهای AST و گره‌های هستی‌شناسی.
   - [x] قفل امنیتی فیلدهای `owner_only` در رادار ابزار (`OwnerCurationLockError`).
+<!-- ZONE:HUMAN_INTUITION_END -->
+<!-- ZONE:CONTRACT_START -->
+- Project: `F1uent-Ecosystem` | Ontology: `ONT_F1UENT_PLAYBOOKS_SPEC` | Thread: `THR_F1UENT_SPEC`
+<!-- ZONE:CONTRACT_END -->
+<!-- ZONE:EXECUTION_CORE_START -->
+```python
+ONT_ID = "ONT_F1UENT_PLAYBOOKS_SPEC"
+SOURCE_REF = "specs/spec.md"
+```
+<!-- ZONE:EXECUTION_CORE_END -->
+<!-- ZONE:WORKSHEET_START -->
+## تمرین ۱۰ دقیقه‌ای (F1uent-Ecosystem)
+1. معماری و قرارداد `ONT_F1UENT_PLAYBOOKS_SPEC` در `F1uent-Ecosystem` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_F1UENT_SPEC"><summary>ThreadBox THR_F1UENT_SPEC</summary></details>
+<!-- ZONE:WORKSHEET_END -->

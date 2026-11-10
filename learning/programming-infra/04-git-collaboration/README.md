@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_PROGRAMMING_INFRA_04_GIT_COLLABORATION
+source_project: MJNexus
 domain: programming-infra
 title_fa: "⭐ 04. گیت و همکاری روی کد"
 content_is_data: true
@@ -73,15 +74,16 @@ git push -u origin feature/login
 - پاسخ باید روش امن‌سازی پس از افشای رمز در تاریخچه (باطل کردن و چرخاندن کلید) را ذکر کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_PROGRAMMING_INFRA_04_GIT_COLLABORATION` | Thread: `THR_PROGRAMMING_INFRA_04_GIT_COLLABORATION`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_PROGRAMMING_INFRA_04_GIT_COLLABORATION` | Thread: `THR_CONCEPT_04_GIT_COLLABORATION`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_PROGRAMMING_INFRA_04_GIT_COLLABORATION"
+SOURCE_REF = "learning/programming-infra/04-git-collaboration/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_PROGRAMMING_INFRA_04_GIT_COLLABORATION"><summary>ThreadBox THR_PROGRAMMING_INFRA_04_GIT_COLLABORATION</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_PROGRAMMING_INFRA_04_GIT_COLLABORATION` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_04_GIT_COLLABORATION"><summary>ThreadBox THR_CONCEPT_04_GIT_COLLABORATION</summary></details>
 <!-- ZONE:WORKSHEET_END -->

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_HOUDINI
+source_project: MJNexus
 source_id: "res:houdini"
 category: other
 wikidata_qid: ""

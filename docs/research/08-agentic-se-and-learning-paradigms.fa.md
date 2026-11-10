@@ -1,3 +1,11 @@
+---
+ont_id: ONT_F1UXUS_RESEARCH_08_AGENTIC_SE_AND_LEARNING_PARADIGMS_FA
+source_project: F1uxus
+domain: research
+title_fa: "واکاوی پارادایم نوین مهندسی نرم‌افزار و یادگیری برنامه‌نویسی در عصر هوش مصنوعی عاملی (گزارش جامع تا اکتبر ۲۰۲۶)"
+content_is_data: true
+---
+<!-- ZONE:HUMAN_INTUITION_START -->
 # واکاوی پارادایم نوین مهندسی نرم‌افزار و یادگیری برنامه‌نویسی در عصر هوش مصنوعی عاملی (گزارش جامع تا اکتبر ۲۰۲۶)
 
 ## دگردیسی بنیادین توسعه نرم‌افزار: گذار از کدنویسی حسی به مهندسی عاملی
@@ -125,3 +133,18 @@
 
 Source: https://gemini.google.com/u/1/app/343574cb850f94a8
 Exported at: 2026-10-26T13:15:18.871Z
+<!-- ZONE:HUMAN_INTUITION_END -->
+<!-- ZONE:CONTRACT_START -->
+- Project: `F1uxus` | Ontology: `ONT_F1UXUS_RESEARCH_08_AGENTIC_SE_AND_LEARNING_PARADIGMS_FA` | Thread: `THR_F1UXUS_08_AGENTIC_SE_AND_LEARNING_PARA`
+<!-- ZONE:CONTRACT_END -->
+<!-- ZONE:EXECUTION_CORE_START -->
+```python
+ONT_ID = "ONT_F1UXUS_RESEARCH_08_AGENTIC_SE_AND_LEARNING_PARADIGMS_FA"
+SOURCE_REF = "initdb/01_schema.sql"
+```
+<!-- ZONE:EXECUTION_CORE_END -->
+<!-- ZONE:WORKSHEET_START -->
+## تمرین ۱۰ دقیقه‌ای (F1uxus)
+1. معماری و قرارداد `ONT_F1UXUS_RESEARCH_08_AGENTIC_SE_AND_LEARNING_PARADIGMS_FA` در `F1uxus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_F1UXUS_08_AGENTIC_SE_AND_LEARNING_PARA"><summary>ThreadBox THR_F1UXUS_08_AGENTIC_SE_AND_LEARNING_PARA</summary></details>
+<!-- ZONE:WORKSHEET_END -->

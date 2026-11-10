@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_PLEX
+source_project: MJNexus
 source_id: "res:plex"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_ARDUINO
+source_project: MJNexus
 source_id: "res:arduino"
 category: other
 wikidata_qid: ""

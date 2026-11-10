@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_VEO
+source_project: MJNexus
 source_id: "res:veo"
 category: other
 wikidata_qid: ""

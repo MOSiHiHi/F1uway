@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_GROK
+source_project: MJNexus
 source_id: "res:grok"
 category: other
 wikidata_qid: ""

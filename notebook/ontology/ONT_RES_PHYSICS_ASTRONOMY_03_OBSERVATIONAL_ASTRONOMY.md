@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_PHYSICS_ASTRONOMY_03_OBSERVATIONAL_ASTRONOMY
+source_project: MJNexus
 source_id: "concept:physics-astronomy/03-observational-astronomy"
 category: other
 wikidata_qid: ""

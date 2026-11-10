@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_FAISS
+source_project: MJNexus
 source_id: "res:faiss"
 category: other
 wikidata_qid: ""

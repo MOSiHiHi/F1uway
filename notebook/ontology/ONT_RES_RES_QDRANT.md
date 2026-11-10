@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_QDRANT
+source_project: MJNexus
 source_id: "res:qdrant"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_MIDJOURNEY
+source_project: MJNexus
 source_id: "res:midjourney"
 category: other
 wikidata_qid: ""

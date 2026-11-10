@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_DISCORD
+source_project: MJNexus
 source_id: "res:discord"
 category: other
 wikidata_qid: ""

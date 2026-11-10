@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_HARDWARE_TECH_PRIVACY_01_HARDWARE_CHOICE
+source_project: MJNexus
 domain: hardware-tech-privacy
 title_fa: "⭐ 01. انتخاب سخت‌افزار (کامپیوتر، کنسول، گیمینگ)"
 content_is_data: true
@@ -65,15 +66,16 @@ content_is_data: true
 - قیمت‌ها باید به‌عنوان داده‌ای متغیر و با تاریخ مشخص ذکر شوند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_HARDWARE_TECH_PRIVACY_01_HARDWARE_CHOICE` | Thread: `THR_HARDWARE_TECH_PRIVACY_01_HARDWARE_CHOI`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_HARDWARE_TECH_PRIVACY_01_HARDWARE_CHOICE` | Thread: `THR_CONCEPT_01_HARDWARE_CHOICE`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_HARDWARE_TECH_PRIVACY_01_HARDWARE_CHOICE"
+SOURCE_REF = "learning/hardware-tech-privacy/01-hardware-choice/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_HARDWARE_TECH_PRIVACY_01_HARDWARE_CHOI"><summary>ThreadBox THR_HARDWARE_TECH_PRIVACY_01_HARDWARE_CHOI</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_HARDWARE_TECH_PRIVACY_01_HARDWARE_CHOICE` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_01_HARDWARE_CHOICE"><summary>ThreadBox THR_CONCEPT_01_HARDWARE_CHOICE</summary></details>
 <!-- ZONE:WORKSHEET_END -->

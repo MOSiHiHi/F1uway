@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MUSIC_SOUND_02_DAW_PRODUCTION
+source_project: MJNexus
 domain: music-sound
 title_fa: "⭐ 02. ساخت موسیقی با نرم‌افزار (DAW، مثل FL Studio)"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - پاسخ باید به تفاوت میان ابزار و جریان کار اشاره کند و از ادعای برتری یک نرم‌افزار بدون دلیل پرهیز کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MUSIC_SOUND_02_DAW_PRODUCTION` | Thread: `THR_MUSIC_SOUND_02_DAW_PRODUCTION`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MUSIC_SOUND_02_DAW_PRODUCTION` | Thread: `THR_CONCEPT_02_DAW_PRODUCTION`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MUSIC_SOUND_02_DAW_PRODUCTION"
+SOURCE_REF = "learning/music-sound/02-daw-production/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MUSIC_SOUND_02_DAW_PRODUCTION"><summary>ThreadBox THR_MUSIC_SOUND_02_DAW_PRODUCTION</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MUSIC_SOUND_02_DAW_PRODUCTION` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_DAW_PRODUCTION"><summary>ThreadBox THR_CONCEPT_02_DAW_PRODUCTION</summary></details>
 <!-- ZONE:WORKSHEET_END -->

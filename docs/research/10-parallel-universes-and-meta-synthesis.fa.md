@@ -1,11 +1,11 @@
-## doc_id: "TASK-T1.1" doc_type: "executable_learning_spec" learning_value: "HIGH" recommended_track: "H2_SOCRATIC_TUTOR" roadmap_sha256: "ddc2713a2b695b81" token_slice_for_ai: "CONTRACT,GOLDEN_VALUES"
-
-# 🚀 ابرسند خودران تسک T1.1: هسته قراردادها، مستطیل‌های چت و هستی‌شناسی ضدتکرار
-
-> 🧭 **قطب‌نمای خودران انسانی (حتی اگر کل قوانین فریم‌ورک را فراموش کرده‌اید):** ۱. شما در **تسک `T1.1`** هستید. ابتدا بخش **«۱. داستان و شهود علمی»** زیر را بخوانید. ۲. کدهای زنده از دل فایل‌های واقعی پایتون به صورت خودکار در بخش ۲ جاسازی شده‌اند. ۳. در بخش ۳، گراف مستطیل‌های چت (`ThreadBox DAG`) و انشعاب‌های بدون مصرف توکن این تسک را می‌بینید. ۴. برای بررسی نهایی و عبور از این مرحله، کافی است در ترمینال بزنید: `python3 scripts/devloop.py gate`
-
+---
+ont_id: ONT_F1UXUS_RESEARCH_10_PARALLEL_UNIVERSES_AND_META_SYNTHESIS_FA
+source_project: F1uxus
+domain: research
+title_fa: "research/10-parallel-universes-and-meta-synthesis.fa"
+content_is_data: true
+---
 <!-- ZONE:HUMAN_INTUITION_START -->
-
 ## ۱. داستان و شهود علمی (مخصوص مطالعه انسان — خارج از بودجه توکن ماشین)
 
 چرا در این معماری هر پیام در یک مستطیل (`ThreadBox`) قرار می‌گیرد و چرا الفاظ منشعب‌شده در هستی‌شناسی (`OntologyRegistry`) ثبت می‌شوند؟ تصور کنید در حال خواندن یک مقاله یا نوشتن کد هستید و عبارتی مثل `extra="forbid"` یا `FSRS-6` ذهنتان را درگیر می‌کند. در چت‌بات‌های معمولی اگر درباره آن سوال بپرسید، رشته اصلی بحث پاره می‌شود و اگر یک هفته بعد در پروژه دیگری دوباره همان سوال را بپرسید، دوباره باید هزینه توکن بدهید. با مکانیسم **درونی‌سازی نمادها (Ontology-Backed Symbolic Interning)**:
@@ -61,70 +61,19 @@ class ConstrainedLLMResponse(F1BaseModel):
 
 ```
 
-<!-- /EMBED --> <!-- ZONE:HUMAN_INTUITION_END -->
-
+<!-- /EMBED -->
+<!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-
-## ۲. قرارداد فنی ماشینی (`ZONE:CONTRACT` — برش ارسالی به هوش مصنوعی)
-
-* تمامی مدل‌های داده در `src/f1_core/contracts.py` باید دارای `ConfigDict(extra="forbid", frozen=True)` باشند.
-
-* در مدل `ConstrainedLLMResponse`، دو فیلد `reasoning_chain` و `evidence_quote` باید اولین کلیدهای کلاس باشند تا در رمزگشایی مقید به اتوماتای پشته‌ای (PDA) زنجیره استدلال پیش از حکم نهایی تولید شود.
-
-* متد `OntologyRegistry.intercept_branch_spawn` باید برای تطابق‌های $\ge 0.92$ وضعیت `ZERO_TOKEN_HIT` و برای سوالات زاویه جدید روی مفهوم موجود وضعیت `DELTA_PROMPT_MODE` برگرداند. <!-- ZONE:CONTRACT_END -->
-
-<!-- ZONE:GOLDEN_VALUES_START -->
-
-## ۳. مقادیر طلایی تست (`ZONE:GOLDEN_VALUES` — مرجع راستی‌آزمایی قطعی)
-
-* **آپدیت BKT (`update_bkt_mastery`):** برای `p_known_prior=0.40` با پاسخ درست (`is_correct=True`, `p_transit=0.15`, `p_slip=0.10`, `p_guess=0.20`)، مقدار خروجی باید دقیقاً `0.7875` باشد.
-
-* **نگاشت افست فارسی (`normalize_persian_with_offsets`):** در رشته `"كتاب‌ها"`، تبدیل `"ك"` عربی به `"ک"` فارسی و نیم‌فاصله به فاصله، باید بازه نرمال‌شده را بدون خطا به بازه اصلی `(0, 7)` نگاشت کند. <!-- ZONE:GOLDEN_VALUES_END -->
-
-<!-- ZONE:THREADS_START --> <details open> <summary>🟦 <b>\[thr_T1.1_main\] معماری قراردادهای داده و مستطیل‌های چت در تسک T1.1</b> (active) — *مسیر اصلی*</summary>
-
-* **`turn_001` | human (`MOSiHiHi`)** — ❓ \[پرسش\] **ساختار پایه TurnNode و اسکیمای LLM**:
-
-  > چطور مدل `TurnNode` و `ConstrainedLLMResponse` را طراحی کنیم که هم انشعاب‌پذیر باشد و هم جلوی توهم و چاپلوسی مدل را بگیرد؟
-
-* **`turn_002` | ai_architect (`claude_architect`)** — 🛠️ \[پیشنهاد\] **طراحی Pydantic با تقدم استدلال و extra=forbid** *(در پاسخ به `turn_001`)*:
-
-  > در کلاس `ConstrainedLLMResponse` ابتدا دو فیلد `reasoning_chain` و `evidence_quote` را قرار می‌دهیم تا در رمزگشایی مقید به `PDA` زنجیره استدلال قبل از نتیجه نهایی پر شود؛ همچنین با `extra='forbid'` تمام مدل‌ها را قفل می‌کنیم.
-
-  * ↳ 🌿 **انشعاب به مستطیل `[thr_T1.1_sub_forbid]` (چرا در تمام مدل‌ها extra='forbid' گذاشتیم؟):** منع ورود فیلدهای تعریف‌نشده (`extra='forbid'`) و تغییرناپذیری شیء (`frozen=True`) در Pydantic v2 با سربار زمانی نزدیک به صفر در هسته Rust.
-
-  * ↳ 🌿 **انشعاب به مستطیل `[thr_T1.1_sub_pda]` (تفاوت PDA با FSM در شِماهای بازگشتی):** برای ساختارهای بازگشتی تودرتو (مثل درخت ThreadBox)، ماشین حالت متناهی (FSM) کافی نیست و پشته PDA الزامی است.
-
-* **`turn_005_gate` | machine_tool (`pytest_gate_runner`)** — ✅ \[تست ماشین\] **تایید تست‌های واحد و گیت T1.1** *(در پاسخ به `turn_002`)*:
-
-  > تمام تست‌های واحد `test_f1_core.py` (شامل Golden Values برای BKT، FSRS-6، نگاشت افست فارسی و حذف توکن تکراری) با موفقیت پاس شدند. </details>
-
-<details> <summary>🟦 <b>\[thr_T1.1_sub_forbid\] چرا در تمام مدل‌ها extra='forbid' گذاشتیم؟</b> (resolved) — 🌿 *منشعب از `turn_002` روی عبارت* `extra=&#39;forbid&#39;` | 🧠 `ONT_PYDANTIC_EXTRA_FORBID`</summary>
-
-* **`turn_87c3b1fb` | machine_tool (`ontology_cache_interceptor`)** — 📌 \[جمع‌بندی\] **کش هستی‌شناسی: ONT_PYDANTIC_EXTRA_FORBID**:
-
-  > ⚡ **\[بازیابی فوری از هستی‌شناسی محلی — هزینه: ۰ توکن\]**
-  >
-  > عبارت منشعب‌شده «`extra='forbid'`» قبلاً در گره کانونیکال `[[ONT_PYDANTIC_EXTRA_FORBID]]` (قفل اسکیمای Pydantic (extra=forbid)) تعریف و تثبیت شده است:
-  >
-  > > منع ورود فیلدهای تعریف‌نشده (`extra='forbid'`) و تغییرناپذیری شیء (`frozen=True`) در Pydantic v2 با سربار زمانی نزدیک به صفر در هسته Rust.
-  >
-  > تنظیم `ConfigDict(extra='forbid', frozen=True)` در **Pydantic v2** (بر پایه هسته Rust `pydantic-core`) تضمین می‌کند که هیچ فیلد اضافی یا توهمی خارج از قرارداد (`Contract`) وارد سیستم نشود و شیء پس از ساخت، تغییرناپذیر (`Immutable`) باقی بماند.
-
-> ✅ **جمع‌بندی تقطیرشده مستطیل:** منع ورود فیلدهای تعریف‌نشده (`extra='forbid'`) و تغییرناپذیری شیء (`frozen=True`) در Pydantic v2 با سربار زمانی نزدیک به صفر در هسته Rust. </details>
-
-<details> <summary>🟦 <b>\[thr_T1.1_sub_pda\] تفاوت PDA با FSM در شِماهای بازگشتی</b> (resolved) — 🌿 *منشعب از `turn_002` روی عبارت* `PDA` | 🧠 `ONT_PUSHDOWN_AUTOMATON_CONSTRAINED_DECODING`</summary>
-
-* **`turn_004_delta` | ai_tutor (`socratic_tutor`)** — 📌 \[جمع‌بندی\] **پاسخ تفاضلی (Delta): پشته بازگشتی در PDA**:
-
-  > چون مستطیل‌های چت (`ThreadBox`) می‌توانند به صورت بازگشتی و تا عمق دلخواه درون هم منشعب شوند، گرامر آن‌ها مستقل از بافتار (`CFG`) است و شمارش پرانتزها/سطوح نیازمند حافظه پشته (`Stack`) در `PDA` است که در `FSM` وجود ندارد.
-
-> ✅ **جمع‌بندی تقطیرشده مستطیل:** برای ساختارهای بازگشتی تودرتو (مثل درخت ThreadBox)، ماشین حالت متناهی (FSM) کافی نیست و پشته PDA الزامی است. </details> <!-- ZONE:THREADS_END -->
-
+- Project: `F1uxus` | Ontology: `ONT_F1UXUS_RESEARCH_10_PARALLEL_UNIVERSES_AND_META_SYNTHESIS_FA` | Thread: `THR_F1UXUS_10_PARALLEL_UNIVERSES_AND_META_`
+<!-- ZONE:CONTRACT_END -->
+<!-- ZONE:EXECUTION_CORE_START -->
+```python
+ONT_ID = "ONT_F1UXUS_RESEARCH_10_PARALLEL_UNIVERSES_AND_META_SYNTHESIS_FA"
+SOURCE_REF = "initdb/01_schema.sql"
+```
+<!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-
-## ۵. میزکار تعاملی و چک‌لیست خودسنجی انسان (`ZONE:WORKSHEET`)
-
-* \[x\] **گام ۱ (پیش‌بینی):** چرا تغییر ترتیب کلیدها در Pydantic دقت خروجی مقید به گرامر را تغییر می‌دهد؟
-
-* \[x\] **گام ۲ (تست عملی):** اجرای `python3 scripts/devloop.py gate` و مشاهده سبز شدن هر دو دروازه مهندسی و یادگیری. <!-- ZONE:WORKSHEET_END -->
+## تمرین ۱۰ دقیقه‌ای (F1uxus)
+1. معماری و قرارداد `ONT_F1UXUS_RESEARCH_10_PARALLEL_UNIVERSES_AND_META_SYNTHESIS_FA` در `F1uxus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_F1UXUS_10_PARALLEL_UNIVERSES_AND_META_"><summary>ThreadBox THR_F1UXUS_10_PARALLEL_UNIVERSES_AND_META_</summary></details>
+<!-- ZONE:WORKSHEET_END -->

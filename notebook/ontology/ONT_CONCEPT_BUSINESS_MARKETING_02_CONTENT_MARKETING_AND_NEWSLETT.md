@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_BUSINESS_MARKETING_02_CONTENT_MARKETING_AND_NEWSLETT
+source_project: MJNexus
 domain: business-marketing
 title_fa: "⭐ 02. بازاریابی محتوا و خبرنامه"
 ---

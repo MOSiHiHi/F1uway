@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_SEEDANCE_2_0
+source_project: MJNexus
 source_id: "res:seedance-2-0"
 category: other
 wikidata_qid: ""

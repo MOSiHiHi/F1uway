@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_PHYSICS_ASTRONOMY_05_SCIENCE_COMMUNICATION
+source_project: MJNexus
 source_id: "concept:physics-astronomy/05-science-communication"
 category: other
 wikidata_qid: ""

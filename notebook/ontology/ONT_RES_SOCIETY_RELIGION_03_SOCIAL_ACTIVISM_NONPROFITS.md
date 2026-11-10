@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_SOCIETY_RELIGION_03_SOCIAL_ACTIVISM_NONPROFITS
+source_project: MJNexus
 source_id: "concept:society-religion/03-social-activism-nonprofits"
 category: other
 wikidata_qid: ""

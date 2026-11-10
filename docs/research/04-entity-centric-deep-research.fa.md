@@ -1,3 +1,11 @@
+---
+ont_id: ONT_F1UXUS_RESEARCH_04_ENTITY_CENTRIC_DEEP_RESEARCH_FA
+source_project: F1uxus
+domain: research
+title_fa: "راهنمای جامع، دانشنامه دامنه و مستندات فنی ساخت پروتوتایپ سلف‌هاست دیپ ریسرچ موجودیت‌محور (Entity-Centric Deep Research) مبتنی بر گراف دانش پویا (Incremental GraphRAG)"
+content_is_data: true
+---
+<!-- ZONE:HUMAN_INTUITION_START -->
 # راهنمای جامع، دانشنامه دامنه و مستندات فنی ساخت پروتوتایپ سلف‌هاست دیپ ریسرچ موجودیت‌محور (Entity-Centric Deep Research) مبتنی بر گراف دانش پویا (Incremental GraphRAG)
 ساخت یک ابزار وب سلف‌هاست (Self-Hosted) برای پژوهش عمیق (Deep Research) که به‌طور هم‌زمان موجودیت‌محور (Entity-Centric)، متکی بر گراف دانش پویا و افزایشی (Incremental GraphRAG)، مجهز به استانداردسازی کوئری (Query Canonicalization) و دارای خروجی قطعی (Deterministic) باشد، نیازمند همگرایی هفت حوزه مهندسی مجزا در قالب یک معماری سبک و یکپارچه است که توسط یک توسعه‌دهنده منفرد (Solo Developer) قابل پیاده‌سازی و نگهداری باشد. در معماری‌های متداول، ترکیب سیستم‌های بازیابی مبتنی بر گراف مانند Microsoft GraphRAG با عامل‌های پژوهشی (Research Agents) به دلیل هزینه ایندکسینگ بالا (طبق گزارش‌های فنی، ۵۰ تا ۲۰۰ دلار و حدود ۴۵ دقیقه زمان برای یک پیکره متنی ۵۰۰ صفحه‌ای)، عدم پشتیبانی ذاتی از به‌روزرسانی‌های افزایشی لحظه‌ای، و تکثیر زیرساخت‌های ذخیره‌سازی (نیاز هم‌زمان به دیتابیس‌های رابطه‌ای، برداری، گرافی و موتورهای جستجوی متنی) برای یک نفر غیرعملی می‌شود. راه‌حل مهندسی بهینه برای این پروتوتایپ، تجمیع کامل لایه ذخیره‌سازی بر بستر یک نمونه واحد **PostgreSQL** (با ترکیب افزونه `pgvector` برای جستجوی برداری HNSW، ستون‌های محاسباتی `tsvector` با ایندکس GIN برای جستجوی واژگانی، و جداول رابطه‌ای بازگشتی `Recursive CTE` به جای افزونه‌های سنگین گرافی)، ترکیب الگوریتم بازیابی دوگانه **LightRAG** با منطق ابطال زمانی یال‌ها در **Graphiti**، مدیریت چرخه پژوهش توسط گراف‌های وضعیت ایزوله در **LangGraph**، و اعمال قطعی‌سازی در دو لایه رمزگشایی مقید (**Constrained Decoding** با vLLM/XGrammar) و کش معنایی (**Semantic Caching** با RedisVL) است.
 دستیابی به «پاسخ‌دهی قطعی» در سیستم‌های مبتنی بر مدل‌های زبانی بزرگ (LLMs) صرفاً با تنظیم پارامتر `temperature=0` و تعیین عدد ثابت برای `seed` محقق نمی‌شود؛ زیرا محاسبات ممیز شناور (Floating-Point) روی پردازنده‌های گرافیکی (GPU) خاصیت شرکت‌پذیری ندارند (`(a + b) + c ≠ a + (b + c)`) و تغییر ترکیب دسته‌ها در تکنیک‌های دسته‌بندی پویا (Continuous Batching) در سرورهای استنتاج، ترتیب عملیات کاهش (Reductions) و در نتیجه مقادیر لاجیت (Logits) توکن‌های خروجی را در اجراهای مختلف تغییر می‌دهد. بنابراین، پروتوتایپ شما باید قطعی‌سازی را در مرز برنامه (Application Boundary) و لایه تولید توکن مهندسی کند: نخست، کوئری‌های ورودی کاربر از طریق پایپ‌لاین استانداردسازی (نرمال‌سازی نگارشی، لینک کردن موجودیت‌ها به شناسه‌های یکتای جهانی مانند Wikidata QID و استخراج کلیدواژه‌های مرتب‌شده) به یک کلید کانونیکال (Canonical Key) تبدیل می‌شوند؛ دوم، این کلید در لایه کش معنایی و دقیق بررسی می‌شود تا در صورت تکرار کوئری یا معادل معنایی آن (با آستانه شباهت کسینوسی ۰.۹۲ و بالاتر)، پاسخ طبق بنچمارک‌های کش برداری در ۳ تا ۸ میلی‌ثانیه بدون فراخوانی مجدد مدل بازگردانده شود؛ و سوم، در صورت عدم وجود در کش، فرآیند استخراج موجودیت و تولید پاسخ تحت ماشین حالت متناهی (FSM) و ماسک کردن لاجیت‌ها (`logits.masked_fill`) اجرا می‌شود تا انطباق نحوی ۱۰۰ درصدی خروجی با طرحواره (Schema) تضمین گردد.
@@ -701,3 +709,18 @@ $$
 
 Source: https://gemini.google.com/u/1/app/cfa2f2dd68f80c6f
 Exported at: 2026-10-26T13:14:33.362Z
+<!-- ZONE:HUMAN_INTUITION_END -->
+<!-- ZONE:CONTRACT_START -->
+- Project: `F1uxus` | Ontology: `ONT_F1UXUS_RESEARCH_04_ENTITY_CENTRIC_DEEP_RESEARCH_FA` | Thread: `THR_F1UXUS_04_ENTITY_CENTRIC_DEEP_RESEARCH`
+<!-- ZONE:CONTRACT_END -->
+<!-- ZONE:EXECUTION_CORE_START -->
+```python
+ONT_ID = "ONT_F1UXUS_RESEARCH_04_ENTITY_CENTRIC_DEEP_RESEARCH_FA"
+SOURCE_REF = "initdb/01_schema.sql"
+```
+<!-- ZONE:EXECUTION_CORE_END -->
+<!-- ZONE:WORKSHEET_START -->
+## تمرین ۱۰ دقیقه‌ای (F1uxus)
+1. معماری و قرارداد `ONT_F1UXUS_RESEARCH_04_ENTITY_CENTRIC_DEEP_RESEARCH_FA` در `F1uxus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_F1UXUS_04_ENTITY_CENTRIC_DEEP_RESEARCH"><summary>ThreadBox THR_F1UXUS_04_ENTITY_CENTRIC_DEEP_RESEARCH</summary></details>
+<!-- ZONE:WORKSHEET_END -->

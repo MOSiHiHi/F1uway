@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_BUSINESS_MARKETING_02_CONTENT_MARKETING_AND_NEWSLETT
+source_project: MJNexus
 domain: business-marketing
 title_fa: "⭐ 02. بازاریابی محتوا و خبرنامه"
 content_is_data: true
@@ -65,15 +66,16 @@ content_is_data: true
 - معیارهای سنجش باید عددی و قابل پیگیری باشند و بازهٔ زمانی مشخص داشته باشند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_BUSINESS_MARKETING_02_CONTENT_MARKETING_AND_NEWSLETT` | Thread: `THR_BUSINESS_MARKETING_02_CONTENT_MARKETIN`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_BUSINESS_MARKETING_02_CONTENT_MARKETING_AND_NEWSLETT` | Thread: `THR_CONCEPT_02_CONTENT_MARKETING_AND_NEWSL`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_BUSINESS_MARKETING_02_CONTENT_MARKETING_AND_NEWSLETT"
+SOURCE_REF = "learning/business-marketing/02-content-marketing-and-newsletter/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_BUSINESS_MARKETING_02_CONTENT_MARKETIN"><summary>ThreadBox THR_BUSINESS_MARKETING_02_CONTENT_MARKETIN</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_BUSINESS_MARKETING_02_CONTENT_MARKETING_AND_NEWSLETT` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_CONTENT_MARKETING_AND_NEWSL"><summary>ThreadBox THR_CONCEPT_02_CONTENT_MARKETING_AND_NEWSL</summary></details>
 <!-- ZONE:WORKSHEET_END -->

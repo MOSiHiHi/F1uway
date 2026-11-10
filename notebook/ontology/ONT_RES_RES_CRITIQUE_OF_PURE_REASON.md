@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_CRITIQUE_OF_PURE_REASON
+source_project: MJNexus
 source_id: "res:critique-of-pure-reason"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_DESIGN_TYPOGRAPHY_02_TYPOGRAPHY_FONT_CHOICE
+source_project: MJNexus
 domain: design-typography
 title_fa: "02. تایپوگرافی و انتخاب فونت (فارسی و لاتین)"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - در تحلیل، مشکلات ترکیب دو زبان (مثل جهت، اعراب یا ارتفاع خط) باید مشخص شوند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_DESIGN_TYPOGRAPHY_02_TYPOGRAPHY_FONT_CHOICE` | Thread: `THR_DESIGN_TYPOGRAPHY_02_TYPOGRAPHY_FONT_C`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_DESIGN_TYPOGRAPHY_02_TYPOGRAPHY_FONT_CHOICE` | Thread: `THR_CONCEPT_02_TYPOGRAPHY_FONT_CHOICE`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_DESIGN_TYPOGRAPHY_02_TYPOGRAPHY_FONT_CHOICE"
+SOURCE_REF = "learning/design-typography/02-typography-font-choice/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_DESIGN_TYPOGRAPHY_02_TYPOGRAPHY_FONT_C"><summary>ThreadBox THR_DESIGN_TYPOGRAPHY_02_TYPOGRAPHY_FONT_C</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_DESIGN_TYPOGRAPHY_02_TYPOGRAPHY_FONT_CHOICE` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_TYPOGRAPHY_FONT_CHOICE"><summary>ThreadBox THR_CONCEPT_02_TYPOGRAPHY_FONT_CHOICE</summary></details>
 <!-- ZONE:WORKSHEET_END -->

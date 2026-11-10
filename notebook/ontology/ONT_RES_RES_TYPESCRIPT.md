@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_TYPESCRIPT
+source_project: MJNexus
 source_id: "res:typescript"
 category: other
 wikidata_qid: ""

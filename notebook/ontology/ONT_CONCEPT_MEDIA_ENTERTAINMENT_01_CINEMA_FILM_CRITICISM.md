@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MEDIA_ENTERTAINMENT_01_CINEMA_FILM_CRITICISM
+source_project: MJNexus
 domain: media-entertainment
 title_fa: "01. سینما و نقد فیلم"
 ---

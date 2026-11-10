@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_CULTURE_SPIRITUALITY_01_CULTURAL_STUDIES_JOURNALS
+source_project: MJNexus
 domain: culture-spirituality
 title_fa: "⭐ 01. مطالعات فرهنگی و مجلات تحلیلی"
 content_is_data: true
@@ -64,15 +65,16 @@ content_is_data: true
 - در همه‌جا، ادعاهای تحلیلی باید به شواهد متنی یا منبع مشخص ارجاع داشته باشند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_CULTURE_SPIRITUALITY_01_CULTURAL_STUDIES_JOURNALS` | Thread: `THR_CULTURE_SPIRITUALITY_01_CULTURAL_STUDI`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_CULTURE_SPIRITUALITY_01_CULTURAL_STUDIES_JOURNALS` | Thread: `THR_CONCEPT_01_CULTURAL_STUDIES_JOURNALS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_CULTURE_SPIRITUALITY_01_CULTURAL_STUDIES_JOURNALS"
+SOURCE_REF = "learning/culture-spirituality/01-cultural-studies-journals/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_CULTURE_SPIRITUALITY_01_CULTURAL_STUDI"><summary>ThreadBox THR_CULTURE_SPIRITUALITY_01_CULTURAL_STUDI</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_CULTURE_SPIRITUALITY_01_CULTURAL_STUDIES_JOURNALS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_01_CULTURAL_STUDIES_JOURNALS"><summary>ThreadBox THR_CONCEPT_01_CULTURAL_STUDIES_JOURNALS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

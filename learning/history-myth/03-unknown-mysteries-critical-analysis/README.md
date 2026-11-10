@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_HISTORY_MYTH_03_UNKNOWN_MYSTERIES_CRITICAL_ANALYSIS
+source_project: MJNexus
 domain: history-myth
 title_fa: "03. رازهای ناشناخته و تحلیل انتقادی آن‌ها"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - پاسخ باید مرز میان ابهام تاریخی و توطئه‌انگاری را با معیار مشخص توضیح دهد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_HISTORY_MYTH_03_UNKNOWN_MYSTERIES_CRITICAL_ANALYSIS` | Thread: `THR_HISTORY_MYTH_03_UNKNOWN_MYSTERIES_CRIT`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_HISTORY_MYTH_03_UNKNOWN_MYSTERIES_CRITICAL_ANALYSIS` | Thread: `THR_CONCEPT_03_UNKNOWN_MYSTERIES_CRITICAL_`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_HISTORY_MYTH_03_UNKNOWN_MYSTERIES_CRITICAL_ANALYSIS"
+SOURCE_REF = "learning/history-myth/03-unknown-mysteries-critical-analysis/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_HISTORY_MYTH_03_UNKNOWN_MYSTERIES_CRIT"><summary>ThreadBox THR_HISTORY_MYTH_03_UNKNOWN_MYSTERIES_CRIT</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_HISTORY_MYTH_03_UNKNOWN_MYSTERIES_CRITICAL_ANALYSIS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_UNKNOWN_MYSTERIES_CRITICAL_"><summary>ThreadBox THR_CONCEPT_03_UNKNOWN_MYSTERIES_CRITICAL_</summary></details>
 <!-- ZONE:WORKSHEET_END -->

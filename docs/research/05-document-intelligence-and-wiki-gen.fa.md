@@ -1,3 +1,11 @@
+---
+ont_id: ONT_F1UXUS_RESEARCH_05_DOCUMENT_INTELLIGENCE_AND_WIKI_GEN_FA
+source_project: F1uxus
+domain: research
+title_fa: "معماری و راهنمای پیاده‌سازی سامانه جامع هوشمندی اسناد، اعتبارسنجی وب، استخراج آنتولوژی و تولید خودکار ویکی"
+content_is_data: true
+---
+<!-- ZONE:HUMAN_INTUITION_START -->
 # معماری و راهنمای پیاده‌سازی سامانه جامع هوشمندی اسناد، اعتبارسنجی وب، استخراج آنتولوژی و تولید خودکار ویکی
 در حال حاضر هیچ نرم‌افزار آماده و تک‌کلیدی (Off-the-shelf) در بازار وجود ندارد که هر ۹ نیازمندی تخصصی شما—از اثبات یکتایی موجودیت در وب و استخراج ساختار صفحه‌به‌صفحه با OCR پیشرفته تا تلخیص سلسله‌مراتبی، ساخت واژه‌نامه بسامدی با ارجاع دقیق، استخراج آنتولوژی رسمی و تولید ویکی تعاملی—را به‌صورت یکجا و خودکار انجام دهد. پلتفرم‌های یکپارچه فعلی مانند **RAGFlow** (متمرکز بر درک عمیق چیدمان اسناد و جداول پیچیده با موتور DeepDoc)، **AnythingLLM** (میزکار چت محلی با اسناد و اجرای عامل‌ها)، **Dify** (بوم بصری طراحی گردش‌کارهای هوش مصنوعی) و **Stanford STORM** (سامانه پژوهش وب و نگارش مقالات ویکی‌پدیایی) هرکدام تنها بخشی از این زنجیره را پوشش می‌دهند. بنابراین، راهکار عملیاتی برای دستیابی به چنین برنامه‌ای، پیاده‌سازی یک **خط لوله نرم‌افزاری ماژولار (Modular Pipeline) به زبان پایتون** است که بهترین کتابخانه‌های متن‌باز و سرویس‌های استاندارد سال ۲۰۲۶ را در یک معماری شش‌لایه به هم پیوند دهد.
 در این معماری، جریان داده از دریافت فایل PDF آغاز شده و در دو شاخه موازی پیش می‌رود: در شاخه نخست، فراداده‌های کتاب‌شناختی با **GROBID** استخراج شده، موجودیت سند از طریق شناسه‌های جهانی (**OpenAlex** و **Crossref**) تأیید می‌گردد، یکتایی آن با ترکیب گواهی منشأ **C2PA** و اثرانگشت‌های ۶۴ بیتی **SimHash** و معنایی سنجیده می‌شود و سپس تمام مباحث و منابع مرتبط در وب توسط موتورهای جستجوی معنایی و خزشگرهای هوشمند (**Exa** و **Firecrawl**) گردآوری می‌گردد. هم‌زمان در شاخه دوم، کالبدشکافی بصری صفحات، استخراج تصاویر و بازسازی جداول توسط چارچوب **IBM Docling v2.140** یا **MinerU 2.5** انجام شده و لایه OCR منطبق بر صدرنشینان بنچمارک **OmniDocBench v1.6** (مانند **PaddleOCR-VL-1.6** و معماری مسیریاب دوطبقه **Gemini 3.8 Flash** برای متون چالش‌برانگیز فارسی) اجرا می‌شود.
@@ -448,3 +456,18 @@ class DocumentToWikiOrchestrator:
 
 Source: https://gemini.google.com/u/1/app/e25dd5e74eff5080
 Exported at: 2026-10-26T13:13:31.291Z
+<!-- ZONE:HUMAN_INTUITION_END -->
+<!-- ZONE:CONTRACT_START -->
+- Project: `F1uxus` | Ontology: `ONT_F1UXUS_RESEARCH_05_DOCUMENT_INTELLIGENCE_AND_WIKI_GEN_FA` | Thread: `THR_F1UXUS_05_DOCUMENT_INTELLIGENCE_AND_WI`
+<!-- ZONE:CONTRACT_END -->
+<!-- ZONE:EXECUTION_CORE_START -->
+```python
+ONT_ID = "ONT_F1UXUS_RESEARCH_05_DOCUMENT_INTELLIGENCE_AND_WIKI_GEN_FA"
+SOURCE_REF = "initdb/01_schema.sql"
+```
+<!-- ZONE:EXECUTION_CORE_END -->
+<!-- ZONE:WORKSHEET_START -->
+## تمرین ۱۰ دقیقه‌ای (F1uxus)
+1. معماری و قرارداد `ONT_F1UXUS_RESEARCH_05_DOCUMENT_INTELLIGENCE_AND_WIKI_GEN_FA` در `F1uxus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_F1UXUS_05_DOCUMENT_INTELLIGENCE_AND_WI"><summary>ThreadBox THR_F1UXUS_05_DOCUMENT_INTELLIGENCE_AND_WI</summary></details>
+<!-- ZONE:WORKSHEET_END -->

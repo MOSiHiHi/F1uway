@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_AI_01_LLM_BASICS
+source_project: MJNexus
 domain: ai
 title_fa: "⭐ ۱. مدل‌های زبانی بزرگ (LLM) چطور کار می‌کنند"
 content_is_data: true
@@ -60,15 +61,16 @@ content_is_data: true
 - باید تفاوت دانش تاریخ‌دار مدل با جست‌وجو یا ابزار بیرونی را روشن کند و برای هرکدام یک نقطهٔ شکست بگوید.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_AI_01_LLM_BASICS` | Thread: `THR_AI_01_LLM_BASICS`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_AI_01_LLM_BASICS` | Thread: `THR_CONCEPT_01_LLM_BASICS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_AI_01_LLM_BASICS"
+SOURCE_REF = "learning/ai/01-llm-basics/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_AI_01_LLM_BASICS"><summary>ThreadBox THR_AI_01_LLM_BASICS</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_AI_01_LLM_BASICS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_01_LLM_BASICS"><summary>ThreadBox THR_CONCEPT_01_LLM_BASICS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

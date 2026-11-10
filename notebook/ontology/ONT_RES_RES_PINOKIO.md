@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_PINOKIO
+source_project: MJNexus
 source_id: "res:pinokio"
 category: other
 wikidata_qid: ""

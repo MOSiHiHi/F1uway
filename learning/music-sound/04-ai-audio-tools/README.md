@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MUSIC_SOUND_04_AI_AUDIO_TOOLS
+source_project: MJNexus
 domain: music-sound
 title_fa: "⏳ 04. ابزارهای تولید صدا با هوش مصنوعی"
 content_is_data: true
@@ -64,15 +65,16 @@ content_is_data: true
 - پاسخ نباید نام یا قابلیت یک ابزار را قطعی و ابدی فرض کند، زیرا این حوزه سریع تغییر می‌کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MUSIC_SOUND_04_AI_AUDIO_TOOLS` | Thread: `THR_MUSIC_SOUND_04_AI_AUDIO_TOOLS`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MUSIC_SOUND_04_AI_AUDIO_TOOLS` | Thread: `THR_CONCEPT_04_AI_AUDIO_TOOLS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MUSIC_SOUND_04_AI_AUDIO_TOOLS"
+SOURCE_REF = "learning/music-sound/04-ai-audio-tools/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MUSIC_SOUND_04_AI_AUDIO_TOOLS"><summary>ThreadBox THR_MUSIC_SOUND_04_AI_AUDIO_TOOLS</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MUSIC_SOUND_04_AI_AUDIO_TOOLS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_04_AI_AUDIO_TOOLS"><summary>ThreadBox THR_CONCEPT_04_AI_AUDIO_TOOLS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

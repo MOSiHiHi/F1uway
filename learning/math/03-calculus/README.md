@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MATH_03_CALCULUS
+source_project: MJNexus
 domain: math
 title_fa: "⭐ ۳. حساب دیفرانسیل و انتگرال"
 content_is_data: true
@@ -65,15 +66,16 @@ content_is_data: true
 - پاسخ باید نقاط بحرانی را از شرط f′ = ۰ به دست آورد و بگوید که این شرط تضمین کمینه یا بیشینه نیست.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MATH_03_CALCULUS` | Thread: `THR_MATH_03_CALCULUS`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MATH_03_CALCULUS` | Thread: `THR_CONCEPT_03_CALCULUS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MATH_03_CALCULUS"
+SOURCE_REF = "learning/math/03-calculus/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MATH_03_CALCULUS"><summary>ThreadBox THR_MATH_03_CALCULUS</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MATH_03_CALCULUS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_CALCULUS"><summary>ThreadBox THR_CONCEPT_03_CALCULUS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

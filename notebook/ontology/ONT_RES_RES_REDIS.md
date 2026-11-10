@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_REDIS
+source_project: MJNexus
 source_id: "res:redis"
 category: other
 wikidata_qid: ""

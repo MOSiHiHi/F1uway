@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_DESIGN_TYPOGRAPHY_03_UI_UX
+source_project: MJNexus
 domain: design-typography
 title_fa: "03. طراحی رابط کاربری و تجربه (UI/UX)"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - طرح آزمون باید هدف، وظیفهٔ کاربر و معیار موفقیت را مشخص کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_DESIGN_TYPOGRAPHY_03_UI_UX` | Thread: `THR_DESIGN_TYPOGRAPHY_03_UI_UX`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_DESIGN_TYPOGRAPHY_03_UI_UX` | Thread: `THR_CONCEPT_03_UI_UX`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_DESIGN_TYPOGRAPHY_03_UI_UX"
+SOURCE_REF = "learning/design-typography/03-ui-ux/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_DESIGN_TYPOGRAPHY_03_UI_UX"><summary>ThreadBox THR_DESIGN_TYPOGRAPHY_03_UI_UX</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_DESIGN_TYPOGRAPHY_03_UI_UX` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_UI_UX"><summary>ThreadBox THR_CONCEPT_03_UI_UX</summary></details>
 <!-- ZONE:WORKSHEET_END -->

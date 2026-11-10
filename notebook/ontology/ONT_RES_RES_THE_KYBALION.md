@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_THE_KYBALION
+source_project: MJNexus
 source_id: "res:the-kybalion"
 category: other
 wikidata_qid: ""

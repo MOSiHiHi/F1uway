@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_DESTREGA
+source_project: MJNexus
 source_id: "res:destrega"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_HARDWARE_TECH_PRIVACY_05_TECH_NEWS_PRICES
+source_project: MJNexus
 domain: hardware-tech-privacy
 title_fa: "05. تازه‌های فناوری و قیمت‌ها"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - قیمت‌ها و فهرست ابزارها باید به‌عنوان داده‌ای با تاریخ مشخص معرفی شوند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_HARDWARE_TECH_PRIVACY_05_TECH_NEWS_PRICES` | Thread: `THR_HARDWARE_TECH_PRIVACY_05_TECH_NEWS_PRI`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_HARDWARE_TECH_PRIVACY_05_TECH_NEWS_PRICES` | Thread: `THR_CONCEPT_05_TECH_NEWS_PRICES`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_HARDWARE_TECH_PRIVACY_05_TECH_NEWS_PRICES"
+SOURCE_REF = "learning/hardware-tech-privacy/05-tech-news-prices/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_HARDWARE_TECH_PRIVACY_05_TECH_NEWS_PRI"><summary>ThreadBox THR_HARDWARE_TECH_PRIVACY_05_TECH_NEWS_PRI</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_HARDWARE_TECH_PRIVACY_05_TECH_NEWS_PRICES` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_05_TECH_NEWS_PRICES"><summary>ThreadBox THR_CONCEPT_05_TECH_NEWS_PRICES</summary></details>
 <!-- ZONE:WORKSHEET_END -->

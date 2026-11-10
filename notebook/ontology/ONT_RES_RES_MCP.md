@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_MCP
+source_project: MJNexus
 source_id: "res:mcp"
 category: other
 wikidata_qid: ""

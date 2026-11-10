@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_VISUAL_ART_04_GALLERY_EXHIBITION_MARKET
+source_project: MJNexus
 domain: visual-art
 title_fa: "04. گالری، نمایشگاه و بازار هنری"
 content_is_data: true
@@ -67,15 +68,16 @@ content_is_data: true
 - پاسخ باید بر شفافیت و مطالعهٔ شرایط پیش از امضا تأکید کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_VISUAL_ART_04_GALLERY_EXHIBITION_MARKET` | Thread: `THR_VISUAL_ART_04_GALLERY_EXHIBITION_MARKE`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_VISUAL_ART_04_GALLERY_EXHIBITION_MARKET` | Thread: `THR_CONCEPT_04_GALLERY_EXHIBITION_MARKET`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_VISUAL_ART_04_GALLERY_EXHIBITION_MARKET"
+SOURCE_REF = "learning/visual-art/04-gallery-exhibition-market/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_VISUAL_ART_04_GALLERY_EXHIBITION_MARKE"><summary>ThreadBox THR_VISUAL_ART_04_GALLERY_EXHIBITION_MARKE</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_VISUAL_ART_04_GALLERY_EXHIBITION_MARKET` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_04_GALLERY_EXHIBITION_MARKET"><summary>ThreadBox THR_CONCEPT_04_GALLERY_EXHIBITION_MARKET</summary></details>
 <!-- ZONE:WORKSHEET_END -->

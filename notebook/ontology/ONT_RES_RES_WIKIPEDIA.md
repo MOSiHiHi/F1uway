@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_WIKIPEDIA
+source_project: MJNexus
 source_id: "res:wikipedia"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_PHYSICS_ASTRONOMY_05_SCIENCE_COMMUNICATION
+source_project: MJNexus
 domain: physics-astronomy
 title_fa: "05. ترویج علم و رسانه‌های علمی"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - طراحی ترویجی باید عدم‌قطعیت را حذف نکند و منبع‌های قابل بررسی داشته باشد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_PHYSICS_ASTRONOMY_05_SCIENCE_COMMUNICATION` | Thread: `THR_PHYSICS_ASTRONOMY_05_SCIENCE_COMMUNICA`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_PHYSICS_ASTRONOMY_05_SCIENCE_COMMUNICATION` | Thread: `THR_CONCEPT_05_SCIENCE_COMMUNICATION`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_PHYSICS_ASTRONOMY_05_SCIENCE_COMMUNICATION"
+SOURCE_REF = "learning/physics-astronomy/05-science-communication/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_PHYSICS_ASTRONOMY_05_SCIENCE_COMMUNICA"><summary>ThreadBox THR_PHYSICS_ASTRONOMY_05_SCIENCE_COMMUNICA</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_PHYSICS_ASTRONOMY_05_SCIENCE_COMMUNICATION` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_05_SCIENCE_COMMUNICATION"><summary>ThreadBox THR_CONCEPT_05_SCIENCE_COMMUNICATION</summary></details>
 <!-- ZONE:WORKSHEET_END -->

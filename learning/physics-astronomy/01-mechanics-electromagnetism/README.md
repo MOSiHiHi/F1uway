@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_PHYSICS_ASTRONOMY_01_MECHANICS_ELECTROMAGNETISM
+source_project: MJNexus
 domain: physics-astronomy
 title_fa: "⭐ 01. مبانی مکانیک و الکترومغناطیس"
 content_is_data: true
@@ -65,15 +66,16 @@ content_is_data: true
 - نتیجه‌گیری باید با واحدهای درست و بررسی معقول بودن عدد همراه باشد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_PHYSICS_ASTRONOMY_01_MECHANICS_ELECTROMAGNETISM` | Thread: `THR_PHYSICS_ASTRONOMY_01_MECHANICS_ELECTRO`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_PHYSICS_ASTRONOMY_01_MECHANICS_ELECTROMAGNETISM` | Thread: `THR_CONCEPT_01_MECHANICS_ELECTROMAGNETISM`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_PHYSICS_ASTRONOMY_01_MECHANICS_ELECTROMAGNETISM"
+SOURCE_REF = "learning/physics-astronomy/01-mechanics-electromagnetism/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_PHYSICS_ASTRONOMY_01_MECHANICS_ELECTRO"><summary>ThreadBox THR_PHYSICS_ASTRONOMY_01_MECHANICS_ELECTRO</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_PHYSICS_ASTRONOMY_01_MECHANICS_ELECTROMAGNETISM` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_01_MECHANICS_ELECTROMAGNETISM"><summary>ThreadBox THR_CONCEPT_01_MECHANICS_ELECTROMAGNETISM</summary></details>
 <!-- ZONE:WORKSHEET_END -->

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_PROMETHEUS
+source_project: MJNexus
 source_id: "res:prometheus"
 category: other
 wikidata_qid: ""

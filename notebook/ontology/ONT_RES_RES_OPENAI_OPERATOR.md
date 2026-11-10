@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_OPENAI_OPERATOR
+source_project: MJNexus
 source_id: "res:openai-operator"
 category: other
 wikidata_qid: ""

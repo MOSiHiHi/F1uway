@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_GAMEDEV_04_AI_IN_GAMES
+source_project: MJNexus
 source_id: "concept:gamedev/04-ai-in-games"
 category: other
 wikidata_qid: ""

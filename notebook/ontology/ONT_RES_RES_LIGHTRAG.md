@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_LIGHTRAG
+source_project: MJNexus
 source_id: "res:lightrag"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MATH_01_FOUNDATIONS
+source_project: MJNexus
 domain: math
 title_fa: "⭐ ۱. مبانی: مجموعه، تابع و استدلال"
 content_is_data: true
@@ -68,15 +69,16 @@ content_is_data: true
 - پاسخ باید بین اثبات و رد ادعای کلی تمایز بگذارد و هر دو را با منطق درست توجیه کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MATH_01_FOUNDATIONS` | Thread: `THR_MATH_01_FOUNDATIONS`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MATH_01_FOUNDATIONS` | Thread: `THR_CONCEPT_01_FOUNDATIONS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MATH_01_FOUNDATIONS"
+SOURCE_REF = "learning/math/01-foundations/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MATH_01_FOUNDATIONS"><summary>ThreadBox THR_MATH_01_FOUNDATIONS</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MATH_01_FOUNDATIONS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_01_FOUNDATIONS"><summary>ThreadBox THR_CONCEPT_01_FOUNDATIONS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

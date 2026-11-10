@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_AI_02_PROMPTING
+source_project: MJNexus
 source_id: "concept:ai/02-prompting"
 category: other
 wikidata_qid: ""

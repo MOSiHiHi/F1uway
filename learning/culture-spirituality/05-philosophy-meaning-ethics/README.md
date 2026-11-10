@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_CULTURE_SPIRITUALITY_05_PHILOSOPHY_MEANING_ETHICS
+source_project: MJNexus
 domain: culture-spirituality
 title_fa: "05. فلسفهٔ معنا و اخلاق"
 content_is_data: true
@@ -64,15 +65,16 @@ content_is_data: true
 - پاسخ باید میان توصیف و تجویز، و میان اخلاق و قانون، تمایز قائل شود.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_CULTURE_SPIRITUALITY_05_PHILOSOPHY_MEANING_ETHICS` | Thread: `THR_CULTURE_SPIRITUALITY_05_PHILOSOPHY_MEA`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_CULTURE_SPIRITUALITY_05_PHILOSOPHY_MEANING_ETHICS` | Thread: `THR_CONCEPT_05_PHILOSOPHY_MEANING_ETHICS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_CULTURE_SPIRITUALITY_05_PHILOSOPHY_MEANING_ETHICS"
+SOURCE_REF = "learning/culture-spirituality/05-philosophy-meaning-ethics/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_CULTURE_SPIRITUALITY_05_PHILOSOPHY_MEA"><summary>ThreadBox THR_CULTURE_SPIRITUALITY_05_PHILOSOPHY_MEA</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_CULTURE_SPIRITUALITY_05_PHILOSOPHY_MEANING_ETHICS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_05_PHILOSOPHY_MEANING_ETHICS"><summary>ThreadBox THR_CONCEPT_05_PHILOSOPHY_MEANING_ETHICS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

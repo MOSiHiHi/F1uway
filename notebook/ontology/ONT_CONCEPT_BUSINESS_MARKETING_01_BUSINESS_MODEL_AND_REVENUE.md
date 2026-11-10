@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_BUSINESS_MARKETING_01_BUSINESS_MODEL_AND_REVENUE
+source_project: MJNexus
 domain: business-marketing
 title_fa: "⭐ 01. مبانی کسب‌وکار و مدل درآمدی"
 ---

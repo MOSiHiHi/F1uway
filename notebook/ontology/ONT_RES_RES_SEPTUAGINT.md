@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_SEPTUAGINT
+source_project: MJNexus
 source_id: "res:septuagint"
 category: other
 wikidata_qid: ""

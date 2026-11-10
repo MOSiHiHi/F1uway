@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_MERMAID
+source_project: MJNexus
 source_id: "res:mermaid"
 category: other
 wikidata_qid: ""

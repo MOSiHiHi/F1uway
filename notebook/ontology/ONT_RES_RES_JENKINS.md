@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_JENKINS
+source_project: MJNexus
 source_id: "res:jenkins"
 category: other
 wikidata_qid: ""

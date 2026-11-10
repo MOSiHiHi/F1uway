@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MUSIC_SOUND_04_AI_AUDIO_TOOLS
+source_project: MJNexus
 domain: music-sound
 title_fa: "⏳ 04. ابزارهای تولید صدا با هوش مصنوعی"
 ---

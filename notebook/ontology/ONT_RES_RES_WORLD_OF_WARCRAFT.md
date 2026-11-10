@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_WORLD_OF_WARCRAFT
+source_project: MJNexus
 source_id: "res:world-of-warcraft"
 category: other
 wikidata_qid: ""

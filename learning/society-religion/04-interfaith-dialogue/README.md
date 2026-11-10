@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_SOCIETY_RELIGION_04_INTERFAITH_DIALOGUE
+source_project: MJNexus
 domain: society-religion
 title_fa: "04. گفت‌وگوهای بین‌ادیانی"
 content_is_data: true
@@ -64,15 +65,16 @@ content_is_data: true
 - پاسخ باید هم تفاوت‌ها را جدی بگیرد و هم زمین‌های مشترک را شناسایی کند، و از جدل پرهیز کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_SOCIETY_RELIGION_04_INTERFAITH_DIALOGUE` | Thread: `THR_SOCIETY_RELIGION_04_INTERFAITH_DIALOGU`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_SOCIETY_RELIGION_04_INTERFAITH_DIALOGUE` | Thread: `THR_CONCEPT_04_INTERFAITH_DIALOGUE`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_SOCIETY_RELIGION_04_INTERFAITH_DIALOGUE"
+SOURCE_REF = "learning/society-religion/04-interfaith-dialogue/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_SOCIETY_RELIGION_04_INTERFAITH_DIALOGU"><summary>ThreadBox THR_SOCIETY_RELIGION_04_INTERFAITH_DIALOGU</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_SOCIETY_RELIGION_04_INTERFAITH_DIALOGUE` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_04_INTERFAITH_DIALOGUE"><summary>ThreadBox THR_CONCEPT_04_INTERFAITH_DIALOGUE</summary></details>
 <!-- ZONE:WORKSHEET_END -->

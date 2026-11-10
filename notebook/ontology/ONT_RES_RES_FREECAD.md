@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_FREECAD
+source_project: MJNexus
 source_id: "res:freecad"
 category: other
 wikidata_qid: ""

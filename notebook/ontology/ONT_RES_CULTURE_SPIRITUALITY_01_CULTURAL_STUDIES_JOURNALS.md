@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_CULTURE_SPIRITUALITY_01_CULTURAL_STUDIES_JOURNALS
+source_project: MJNexus
 source_id: "concept:culture-spirituality/01-cultural-studies-journals"
 category: other
 wikidata_qid: ""

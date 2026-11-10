@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_PHYSICS_ASTRONOMY_04_COSMOLOGY_GRAVITATIONAL_WAVES
+source_project: MJNexus
 source_id: "concept:physics-astronomy/04-cosmology-gravitational-waves"
 category: other
 wikidata_qid: ""

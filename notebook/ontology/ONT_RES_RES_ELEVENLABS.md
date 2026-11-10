@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_ELEVENLABS
+source_project: MJNexus
 source_id: "res:elevenlabs"
 category: other
 wikidata_qid: ""

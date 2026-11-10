@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_JUPYTER
+source_project: MJNexus
 source_id: "res:jupyter"
 category: other
 wikidata_qid: ""

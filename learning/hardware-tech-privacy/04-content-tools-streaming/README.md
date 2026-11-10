@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_HARDWARE_TECH_PRIVACY_04_CONTENT_TOOLS_STREAMING
+source_project: MJNexus
 domain: hardware-tech-privacy
 title_fa: "04. ابزارهای تولید محتوا و استریم"
 content_is_data: true
@@ -64,15 +65,16 @@ content_is_data: true
 - نقش ضبط آزمایشی پیش از استریم زنده باید ذکر شود.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_HARDWARE_TECH_PRIVACY_04_CONTENT_TOOLS_STREAMING` | Thread: `THR_HARDWARE_TECH_PRIVACY_04_CONTENT_TOOLS`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_HARDWARE_TECH_PRIVACY_04_CONTENT_TOOLS_STREAMING` | Thread: `THR_CONCEPT_04_CONTENT_TOOLS_STREAMING`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_HARDWARE_TECH_PRIVACY_04_CONTENT_TOOLS_STREAMING"
+SOURCE_REF = "learning/hardware-tech-privacy/04-content-tools-streaming/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_HARDWARE_TECH_PRIVACY_04_CONTENT_TOOLS"><summary>ThreadBox THR_HARDWARE_TECH_PRIVACY_04_CONTENT_TOOLS</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_HARDWARE_TECH_PRIVACY_04_CONTENT_TOOLS_STREAMING` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_04_CONTENT_TOOLS_STREAMING"><summary>ThreadBox THR_CONCEPT_04_CONTENT_TOOLS_STREAMING</summary></details>
 <!-- ZONE:WORKSHEET_END -->

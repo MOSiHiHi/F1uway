@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_NOTEBOOKLM
+source_project: MJNexus
 source_id: "res:notebooklm"
 category: other
 wikidata_qid: ""

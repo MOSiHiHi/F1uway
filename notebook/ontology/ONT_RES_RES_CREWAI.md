@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_CREWAI
+source_project: MJNexus
 source_id: "res:crewai"
 category: other
 wikidata_qid: ""

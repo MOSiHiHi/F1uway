@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_DEEPSEEK_V4_PRO
+source_project: MJNexus
 source_id: "res:deepseek-v4-pro"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_SOURCES_INSTAGRAM_EXPORT
+source_project: MJNexus
 domain: sources
 title_fa: "خروجی ذخیره‌شده‌ها و گفت‌وگوی اینستاگرام"
 content_is_data: true
@@ -15,15 +16,16 @@ content_is_data: true
 `followed = yes` یعنی سازنده در `instagram-index/index/profiles.tsv` است.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_SOURCES_INSTAGRAM_EXPORT` | Thread: `THR_SOURCES_INSTAGRAM_EXPORT`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_SOURCES_INSTAGRAM_EXPORT` | Thread: `THR_CONCEPT_INSTAGRAM_EXPORT`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_SOURCES_INSTAGRAM_EXPORT"
+SOURCE_REF = "learning/sources/instagram-export/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_SOURCES_INSTAGRAM_EXPORT"><summary>ThreadBox THR_SOURCES_INSTAGRAM_EXPORT</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_SOURCES_INSTAGRAM_EXPORT` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_INSTAGRAM_EXPORT"><summary>ThreadBox THR_CONCEPT_INSTAGRAM_EXPORT</summary></details>
 <!-- ZONE:WORKSHEET_END -->

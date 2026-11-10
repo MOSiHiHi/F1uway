@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_HISTORY_MYTH_02_MYTHOLOGY_FOLKLORE
+source_project: MJNexus
 source_id: "concept:history-myth/02-mythology-folklore"
 category: other
 wikidata_qid: ""

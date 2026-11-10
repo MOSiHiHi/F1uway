@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_VISUAL_ART_04_GALLERY_EXHIBITION_MARKET
+source_project: MJNexus
 source_id: "concept:visual-art/04-gallery-exhibition-market"
 category: other
 wikidata_qid: ""

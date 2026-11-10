@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_GLM
+source_project: MJNexus
 source_id: "res:glm"
 category: other
 wikidata_qid: ""

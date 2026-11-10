@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_LLAMA
+source_project: MJNexus
 source_id: "res:llama"
 category: other
 wikidata_qid: ""

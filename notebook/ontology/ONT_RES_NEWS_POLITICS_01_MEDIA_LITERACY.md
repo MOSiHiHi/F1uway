@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_NEWS_POLITICS_01_MEDIA_LITERACY
+source_project: MJNexus
 source_id: "concept:news-politics/01-media-literacy"
 category: other
 wikidata_qid: ""

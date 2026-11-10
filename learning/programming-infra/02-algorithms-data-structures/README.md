@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_PROGRAMMING_INFRA_02_ALGORITHMS_DATA_STRUCTURES
+source_project: MJNexus
 domain: programming-infra
 title_fa: "⭐ 02. الگوریتم و ساختار داده"
 content_is_data: true
@@ -71,15 +72,16 @@ user = users.get(target_id)              # جست‌وجو به‌طور میا�
 - پیاده‌سازی صف باید رفتار FIFO را حفظ کند و هزینهٔ هر عملیات را بیان کند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_PROGRAMMING_INFRA_02_ALGORITHMS_DATA_STRUCTURES` | Thread: `THR_PROGRAMMING_INFRA_02_ALGORITHMS_DATA_S`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_PROGRAMMING_INFRA_02_ALGORITHMS_DATA_STRUCTURES` | Thread: `THR_CONCEPT_02_ALGORITHMS_DATA_STRUCTURES`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_PROGRAMMING_INFRA_02_ALGORITHMS_DATA_STRUCTURES"
+SOURCE_REF = "learning/programming-infra/02-algorithms-data-structures/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_PROGRAMMING_INFRA_02_ALGORITHMS_DATA_S"><summary>ThreadBox THR_PROGRAMMING_INFRA_02_ALGORITHMS_DATA_S</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_PROGRAMMING_INFRA_02_ALGORITHMS_DATA_STRUCTURES` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_ALGORITHMS_DATA_STRUCTURES"><summary>ThreadBox THR_CONCEPT_02_ALGORITHMS_DATA_STRUCTURES</summary></details>
 <!-- ZONE:WORKSHEET_END -->

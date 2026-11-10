@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_VISUAL_ART_01_PAINTING_COMPOSITION_BASICS
+source_project: MJNexus
 domain: visual-art
 title_fa: "⭐ 01. مبانی نقاشی و ترکیب‌بندی"
 ---

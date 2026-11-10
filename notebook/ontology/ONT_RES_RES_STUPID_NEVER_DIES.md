@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_STUPID_NEVER_DIES
+source_project: MJNexus
 source_id: "res:stupid-never-dies"
 category: other
 wikidata_qid: ""

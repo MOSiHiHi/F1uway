@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_PROGRAMMING_INFRA_03_LINUX_COMMAND_LINE
+source_project: MJNexus
 domain: programming-infra
 title_fa: "03. سیستم‌عامل لینوکس و خط فرمان"
 content_is_data: true
@@ -74,15 +75,16 @@ sudo kill 1234                # 1234 نمونه‌ای از شناسهٔ فرا�
 - پاسخ باید دستورها را با نام کامل و معنی هر پرچم (flag) توضیح دهد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_PROGRAMMING_INFRA_03_LINUX_COMMAND_LINE` | Thread: `THR_PROGRAMMING_INFRA_03_LINUX_COMMAND_LIN`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_PROGRAMMING_INFRA_03_LINUX_COMMAND_LINE` | Thread: `THR_CONCEPT_03_LINUX_COMMAND_LINE`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_PROGRAMMING_INFRA_03_LINUX_COMMAND_LINE"
+SOURCE_REF = "learning/programming-infra/03-linux-command-line/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_PROGRAMMING_INFRA_03_LINUX_COMMAND_LIN"><summary>ThreadBox THR_PROGRAMMING_INFRA_03_LINUX_COMMAND_LIN</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_PROGRAMMING_INFRA_03_LINUX_COMMAND_LINE` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_LINUX_COMMAND_LINE"><summary>ThreadBox THR_CONCEPT_03_LINUX_COMMAND_LINE</summary></details>
 <!-- ZONE:WORKSHEET_END -->

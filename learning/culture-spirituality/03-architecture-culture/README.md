@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_CULTURE_SPIRITUALITY_03_ARCHITECTURE_CULTURE
+source_project: MJNexus
 domain: culture-spirituality
 title_fa: "03. معماری و فرهنگ"
 content_is_data: true
@@ -63,15 +64,16 @@ content_is_data: true
 - طرح‌های پیشنهادی باید ملاحظات اقلیمی و پایداری را با مثال مشخص نشان دهند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_CULTURE_SPIRITUALITY_03_ARCHITECTURE_CULTURE` | Thread: `THR_CULTURE_SPIRITUALITY_03_ARCHITECTURE_C`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_CULTURE_SPIRITUALITY_03_ARCHITECTURE_CULTURE` | Thread: `THR_CONCEPT_03_ARCHITECTURE_CULTURE`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_CULTURE_SPIRITUALITY_03_ARCHITECTURE_CULTURE"
+SOURCE_REF = "learning/culture-spirituality/03-architecture-culture/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_CULTURE_SPIRITUALITY_03_ARCHITECTURE_C"><summary>ThreadBox THR_CULTURE_SPIRITUALITY_03_ARCHITECTURE_C</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_CULTURE_SPIRITUALITY_03_ARCHITECTURE_CULTURE` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_ARCHITECTURE_CULTURE"><summary>ThreadBox THR_CONCEPT_03_ARCHITECTURE_CULTURE</summary></details>
 <!-- ZONE:WORKSHEET_END -->

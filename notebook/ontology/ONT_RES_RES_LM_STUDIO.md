@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_LM_STUDIO
+source_project: MJNexus
 source_id: "res:lm-studio"
 category: other
 wikidata_qid: ""

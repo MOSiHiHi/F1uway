@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_TIKTOK
+source_project: MJNexus
 source_id: "res:tiktok"
 category: other
 wikidata_qid: ""

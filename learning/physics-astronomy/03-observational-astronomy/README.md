@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_PHYSICS_ASTRONOMY_03_OBSERVATIONAL_ASTRONOMY
+source_project: MJNexus
 domain: physics-astronomy
 title_fa: "03. نجوم مشاهده‌ای و تلسکوپ‌ها (هابل، ناسا)"
 content_is_data: true
@@ -65,15 +66,16 @@ content_is_data: true
 - استدلال انتخاب طول‌موج باید با نوع پدیدهٔ مورد مطالعه (مثلاً گرد و غبار یا تابش گرم) ارتباط منطقی داشته باشد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_PHYSICS_ASTRONOMY_03_OBSERVATIONAL_ASTRONOMY` | Thread: `THR_PHYSICS_ASTRONOMY_03_OBSERVATIONAL_AST`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_PHYSICS_ASTRONOMY_03_OBSERVATIONAL_ASTRONOMY` | Thread: `THR_CONCEPT_03_OBSERVATIONAL_ASTRONOMY`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_PHYSICS_ASTRONOMY_03_OBSERVATIONAL_ASTRONOMY"
+SOURCE_REF = "learning/physics-astronomy/03-observational-astronomy/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_PHYSICS_ASTRONOMY_03_OBSERVATIONAL_AST"><summary>ThreadBox THR_PHYSICS_ASTRONOMY_03_OBSERVATIONAL_AST</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_PHYSICS_ASTRONOMY_03_OBSERVATIONAL_ASTRONOMY` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_OBSERVATIONAL_ASTRONOMY"><summary>ThreadBox THR_CONCEPT_03_OBSERVATIONAL_ASTRONOMY</summary></details>
 <!-- ZONE:WORKSHEET_END -->

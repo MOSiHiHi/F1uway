@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_NEWS_POLITICS_02_INTERNATIONAL_NEWS
+source_project: MJNexus
 domain: news-politics
 title_fa: "02. خبر بین‌المللی و منطقه‌ای"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - ارزیابی باید بی‌طرف و بدون پیش‌داوری دربارهٔ بازیگران باشد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_NEWS_POLITICS_02_INTERNATIONAL_NEWS` | Thread: `THR_NEWS_POLITICS_02_INTERNATIONAL_NEWS`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_NEWS_POLITICS_02_INTERNATIONAL_NEWS` | Thread: `THR_CONCEPT_02_INTERNATIONAL_NEWS`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_NEWS_POLITICS_02_INTERNATIONAL_NEWS"
+SOURCE_REF = "learning/news-politics/02-international-news/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_NEWS_POLITICS_02_INTERNATIONAL_NEWS"><summary>ThreadBox THR_NEWS_POLITICS_02_INTERNATIONAL_NEWS</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_NEWS_POLITICS_02_INTERNATIONAL_NEWS` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_02_INTERNATIONAL_NEWS"><summary>ThreadBox THR_CONCEPT_02_INTERNATIONAL_NEWS</summary></details>
 <!-- ZONE:WORKSHEET_END -->

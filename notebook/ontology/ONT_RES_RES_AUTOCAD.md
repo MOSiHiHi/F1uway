@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_AUTOCAD
+source_project: MJNexus
 source_id: "res:autocad"
 category: other
 wikidata_qid: ""

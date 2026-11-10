@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_BUSINESS_MARKETING_03_ENTREPRENEURSHIP_AND_PRODUCT_B
+source_project: MJNexus
 domain: business-marketing
 title_fa: "03. کارآفرینی و ساخت محصول"
 content_is_data: true
@@ -66,15 +67,16 @@ content_is_data: true
 - تحلیل ضعف‌ها باید حداقل یک خطای احتمالی در نمونه‌گیری یا تفسیر نتیجه را در بر بگیرد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_BUSINESS_MARKETING_03_ENTREPRENEURSHIP_AND_PRODUCT_B` | Thread: `THR_BUSINESS_MARKETING_03_ENTREPRENEURSHIP`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_BUSINESS_MARKETING_03_ENTREPRENEURSHIP_AND_PRODUCT_B` | Thread: `THR_CONCEPT_03_ENTREPRENEURSHIP_AND_PRODUC`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_BUSINESS_MARKETING_03_ENTREPRENEURSHIP_AND_PRODUCT_B"
+SOURCE_REF = "learning/business-marketing/03-entrepreneurship-and-product-building/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_BUSINESS_MARKETING_03_ENTREPRENEURSHIP"><summary>ThreadBox THR_BUSINESS_MARKETING_03_ENTREPRENEURSHIP</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_BUSINESS_MARKETING_03_ENTREPRENEURSHIP_AND_PRODUCT_B` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_ENTREPRENEURSHIP_AND_PRODUC"><summary>ThreadBox THR_CONCEPT_03_ENTREPRENEURSHIP_AND_PRODUC</summary></details>
 <!-- ZONE:WORKSHEET_END -->

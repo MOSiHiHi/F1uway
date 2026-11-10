@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_AI_03_TOOLS_MAP
+source_project: MJNexus
 domain: ai
 title_fa: "⭐ ۳. نقشهٔ ابزارها و انتخاب ابزار"
 content_is_data: true
@@ -67,15 +68,16 @@ content_is_data: true
 - پاسخ باید حریم خصوصی داده‌ها و امکان خروجی‌گرفتن (جلوگیری از قفل‌شدگی) را به‌عنوان بخشی از تصمیم بیاورد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_AI_03_TOOLS_MAP` | Thread: `THR_AI_03_TOOLS_MAP`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_AI_03_TOOLS_MAP` | Thread: `THR_CONCEPT_03_TOOLS_MAP`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_AI_03_TOOLS_MAP"
+SOURCE_REF = "learning/ai/03-tools-map/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_AI_03_TOOLS_MAP"><summary>ThreadBox THR_AI_03_TOOLS_MAP</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_AI_03_TOOLS_MAP` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_03_TOOLS_MAP"><summary>ThreadBox THR_CONCEPT_03_TOOLS_MAP</summary></details>
 <!-- ZONE:WORKSHEET_END -->

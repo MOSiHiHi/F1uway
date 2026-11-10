@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_ELEMENTS_OF_AI
+source_project: MJNexus
 source_id: "res:elements-of-ai"
 category: other
 wikidata_qid: ""

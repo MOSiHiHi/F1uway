@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_CULTURE_SPIRITUALITY_05_PHILOSOPHY_MEANING_ETHICS
+source_project: MJNexus
 source_id: "concept:culture-spirituality/05-philosophy-meaning-ethics"
 category: other
 wikidata_qid: ""

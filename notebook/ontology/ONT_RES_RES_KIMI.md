@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_KIMI
+source_project: MJNexus
 source_id: "res:kimi"
 category: other
 wikidata_qid: ""

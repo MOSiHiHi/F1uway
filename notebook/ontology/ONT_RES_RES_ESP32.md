@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_ESP32
+source_project: MJNexus
 source_id: "res:esp32"
 category: other
 wikidata_qid: ""

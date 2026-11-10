@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_AI_04_AGENTS_AUTOMATION
+source_project: MJNexus
 domain: ai
 title_fa: "⭐ ۴. ایجنت‌ها و اتوماسیون"
 content_is_data: true
@@ -62,15 +63,16 @@ content_is_data: true
 - پاسخ باید دسترسی ایجنت را به حداقل نیاز محدود کند و این را به‌عنوان یک اصل ایمنی توضیح دهد.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_AI_04_AGENTS_AUTOMATION` | Thread: `THR_AI_04_AGENTS_AUTOMATION`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_AI_04_AGENTS_AUTOMATION` | Thread: `THR_CONCEPT_04_AGENTS_AUTOMATION`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_AI_04_AGENTS_AUTOMATION"
+SOURCE_REF = "learning/ai/04-agents-automation/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_AI_04_AGENTS_AUTOMATION"><summary>ThreadBox THR_AI_04_AGENTS_AUTOMATION</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_AI_04_AGENTS_AUTOMATION` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_04_AGENTS_AUTOMATION"><summary>ThreadBox THR_CONCEPT_04_AGENTS_AUTOMATION</summary></details>
 <!-- ZONE:WORKSHEET_END -->

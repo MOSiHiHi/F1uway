@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_ASTRONOMICUM_CAESAREUM
+source_project: MJNexus
 source_id: "res:astronomicum-caesareum"
 category: other
 wikidata_qid: ""

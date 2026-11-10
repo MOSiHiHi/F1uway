@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_GOOGLE_EARTH
+source_project: MJNexus
 source_id: "res:google-earth"
 category: other
 wikidata_qid: ""

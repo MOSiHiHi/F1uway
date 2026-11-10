@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_OPENAI_CODEX
+source_project: MJNexus
 source_id: "res:openai-codex"
 category: other
 wikidata_qid: ""

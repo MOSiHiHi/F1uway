@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_CULTURE_SPIRITUALITY_04_PERSIAN_ARABIC_LANGUAGE_LITE
+source_project: MJNexus
 domain: culture-spirituality
 title_fa: "04. زبان و ادبیات فارسی و عربی"
 content_is_data: true
@@ -64,15 +65,16 @@ content_is_data: true
 - ادعاهای زبانی باید به واژه‌نامه، متن یا منبع معتبر مستند باشند.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_CULTURE_SPIRITUALITY_04_PERSIAN_ARABIC_LANGUAGE_LITE` | Thread: `THR_CULTURE_SPIRITUALITY_04_PERSIAN_ARABIC`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_CULTURE_SPIRITUALITY_04_PERSIAN_ARABIC_LANGUAGE_LITE` | Thread: `THR_CONCEPT_04_PERSIAN_ARABIC_LANGUAGE_LIT`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_CULTURE_SPIRITUALITY_04_PERSIAN_ARABIC_LANGUAGE_LITE"
+SOURCE_REF = "learning/culture-spirituality/04-persian-arabic-language-literature/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_CULTURE_SPIRITUALITY_04_PERSIAN_ARABIC"><summary>ThreadBox THR_CULTURE_SPIRITUALITY_04_PERSIAN_ARABIC</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_CULTURE_SPIRITUALITY_04_PERSIAN_ARABIC_LANGUAGE_LITE` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_04_PERSIAN_ARABIC_LANGUAGE_LIT"><summary>ThreadBox THR_CONCEPT_04_PERSIAN_ARABIC_LANGUAGE_LIT</summary></details>
 <!-- ZONE:WORKSHEET_END -->

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_VISUAL_ART_03_FIGURE_PORTRAIT_DRAWING
+source_project: MJNexus
 source_id: "concept:visual-art/03-figure-portrait-drawing"
 category: other
 wikidata_qid: ""

@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_RES_RES_MINIMAX_H3
+source_project: MJNexus
 source_id: "res:minimax-h3"
 category: other
 wikidata_qid: ""

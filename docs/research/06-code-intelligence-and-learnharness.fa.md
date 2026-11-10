@@ -1,3 +1,11 @@
+---
+ont_id: ONT_F1UXUS_RESEARCH_06_CODE_INTELLIGENCE_AND_LEARNHARNESS_FA
+source_project: F1uxus
+domain: research
+title_fa: "گزارش مهندسی اسکیل و هارنس \- Google Gemini"
+content_is_data: true
+---
+<!-- ZONE:HUMAN_INTUITION_START -->
 # گزارش مهندسی اسکیل و هارنس \- Google Gemini
 
 **Date**: November 6, 2026 at 12:48 AM
@@ -835,3 +843,18 @@ avg_mastery: 0.65
 
 *Exported from [Voyager](https://github.com/voyager-crew/voyager)*  
 *Generated on November 6, 2026 at 12:48 AM*
+<!-- ZONE:HUMAN_INTUITION_END -->
+<!-- ZONE:CONTRACT_START -->
+- Project: `F1uxus` | Ontology: `ONT_F1UXUS_RESEARCH_06_CODE_INTELLIGENCE_AND_LEARNHARNESS_FA` | Thread: `THR_F1UXUS_06_CODE_INTELLIGENCE_AND_LEARNH`
+<!-- ZONE:CONTRACT_END -->
+<!-- ZONE:EXECUTION_CORE_START -->
+```python
+ONT_ID = "ONT_F1UXUS_RESEARCH_06_CODE_INTELLIGENCE_AND_LEARNHARNESS_FA"
+SOURCE_REF = "initdb/01_schema.sql"
+```
+<!-- ZONE:EXECUTION_CORE_END -->
+<!-- ZONE:WORKSHEET_START -->
+## تمرین ۱۰ دقیقه‌ای (F1uxus)
+1. معماری و قرارداد `ONT_F1UXUS_RESEARCH_06_CODE_INTELLIGENCE_AND_LEARNHARNESS_FA` در `F1uxus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_F1UXUS_06_CODE_INTELLIGENCE_AND_LEARNH"><summary>ThreadBox THR_F1UXUS_06_CODE_INTELLIGENCE_AND_LEARNH</summary></details>
+<!-- ZONE:WORKSHEET_END -->

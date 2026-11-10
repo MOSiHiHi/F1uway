@@ -1,5 +1,6 @@
 ---
 ont_id: ONT_CONCEPT_MEDIA_ENTERTAINMENT_05_MEMES_ONLINE_CULTURE
+source_project: MJNexus
 domain: media-entertainment
 title_fa: "05. میم و فرهنگ آنلاین"
 content_is_data: true
@@ -65,15 +66,16 @@ content_is_data: true
 - در پاسخ باید از ادعای قطعی دربارهٔ منشأ یک میم بدون منبع پرهیز شود.
 <!-- ZONE:HUMAN_INTUITION_END -->
 <!-- ZONE:CONTRACT_START -->
-- Ontology: `ONT_CONCEPT_MEDIA_ENTERTAINMENT_05_MEMES_ONLINE_CULTURE` | Thread: `THR_MEDIA_ENTERTAINMENT_05_MEMES_ONLINE_CU`
+- Project: `MJNexus` | Ontology: `ONT_CONCEPT_MEDIA_ENTERTAINMENT_05_MEMES_ONLINE_CULTURE` | Thread: `THR_CONCEPT_05_MEMES_ONLINE_CULTURE`
 <!-- ZONE:CONTRACT_END -->
 <!-- ZONE:EXECUTION_CORE_START -->
 ```python
 ONT_ID = "ONT_CONCEPT_MEDIA_ENTERTAINMENT_05_MEMES_ONLINE_CULTURE"
+SOURCE_REF = "learning/media-entertainment/05-memes-online-culture/README.md"
 ```
 <!-- ZONE:EXECUTION_CORE_END -->
 <!-- ZONE:WORKSHEET_START -->
-## تمرین ۱۰ دقیقه‌ای
-1. مفهوم کلیدی چیست؟
-<details data-f1-thread="THR_MEDIA_ENTERTAINMENT_05_MEMES_ONLINE_CU"><summary>ThreadBox THR_MEDIA_ENTERTAINMENT_05_MEMES_ONLINE_CU</summary></details>
+## تمرین ۱۰ دقیقه‌ای (MJNexus)
+1. معماری و قرارداد `ONT_CONCEPT_MEDIA_ENTERTAINMENT_05_MEMES_ONLINE_CULTURE` در `MJNexus` چگونه راستی‌آزمایی می‌شود؟
+<details data-f1-thread="THR_CONCEPT_05_MEMES_ONLINE_CULTURE"><summary>ThreadBox THR_CONCEPT_05_MEMES_ONLINE_CULTURE</summary></details>
 <!-- ZONE:WORKSHEET_END -->
